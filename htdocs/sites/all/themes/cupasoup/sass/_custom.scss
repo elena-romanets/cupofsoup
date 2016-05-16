@@ -190,8 +190,36 @@ $gutter-width: 10px;
   }
 }
 
+// shifts
+
+.bottom-30 {
+  margin-bottom: 30px;
+}
+
+.bottom-80 {
+  margin-bottom: 80px;
+}
+
+.bottom-90 {
+  margin-bottom: 90px;
+}
+
+.bottom-95 {
+  margin-bottom: 95px;
+}
 
 
+.bottom-120 {
+  margin-bottom: 120px;
+}
+
+.top-95 {
+  margin-top: 95px;
+}
+
+.center {
+  text-align: center;
+}
 ///
 
 // palette
@@ -200,6 +228,7 @@ $green_light: #289448;
 $white: #ffffff;
 $yellow: #fce202;
 $yellow_light: #fff100;
+$yellow_light2: #bccf1b;
 $black_light: #2a2927;
 $blue: #09a4cb;
 $blue_light: #09a2c9;

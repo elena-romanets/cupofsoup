@@ -1,3 +1,38 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003195}}
+.bottom-30 {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003199}}
+.bottom-80 {
+  margin-bottom: 80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003203}}
+.bottom-90 {
+  margin-bottom: 90px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003207}}
+.bottom-95 {
+  margin-bottom: 95px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003212}}
+.bottom-120 {
+  margin-bottom: 120px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003216}}
+.top-95 {
+  margin-top: 95px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003220}}
+.center {
+  text-align: center;
+}
+
 /*
  * Target IE 6, 7 and 8 (less than IE9)
  */

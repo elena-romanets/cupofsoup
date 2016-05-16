@@ -6,6 +6,7 @@
 .title {
     font-size: 45px;
     font-weight: 700;
+    text-transform: uppercase;
     margin-top: 0;
 
     &.sm-title {
@@ -51,12 +52,24 @@ a.button,
     }
 }
 
-.systemen-details .wrapper-text {
+.clear {
+    clear: both;
+}
+
+.systemen-details .wrapper-text,
+.systemen-details .block-2,
+.systemen-details .block-3,
+.systemen-details .block-4,
+.systemen-details .block-5,
+.systemen-details .system-video {
     width: 1080px;
     margin: 0 auto;
 }
 
-
+.block .cell .block-title {
+    font-size: 15px;
+    color: $yellow_light2;
+}
 
 // Top header section
 .region-top-header {
@@ -570,6 +583,35 @@ a.button,
         &.blue {
             background-color: $blue_bg;
             color: $white;
+        }
+        
+        .cell {
+            max-width: 250px;
+            display: block;
+            float: left;
+            margin-right: 100px;
+
+            .title {
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .block-1 {
+        .title {
+            padding: 170px 0 75px 0;
+        }
+
+        .details-txt {
+            padding: 0 0 70px 0;
+            max-width: 730px;
+        }
+    }
+    .block-2 {
+        .details-txt {
+            padding: 75px 0 70px 0;
+            max-width: 380px;
+            line-height: 30px;
         }
     }
 }
