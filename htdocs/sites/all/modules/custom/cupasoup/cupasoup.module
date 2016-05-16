@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ */
+function cupasoup_block_info() {
+    $blocks = array();
+
+    $blocks['cupasoup'] = array(
+        'info' => t('Top Header'),
+        'cache' => DRUPAL_NO_CACHE,
+    );
+
+    return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function cupasoup_block_view($delta = '') {
+    $block = array();
+
+    switch ($delta) {
+        case 'cupasoup':
+            $block['subject'] = t('Top Header');
+            $block['content'] = cupasoup_contents();
+
+            break;
+    }
+
+    return $block;
+}
+
+/**
+ * Top Header on home page.
+ */
+function cupasoup_contents() {
+
+}
+
