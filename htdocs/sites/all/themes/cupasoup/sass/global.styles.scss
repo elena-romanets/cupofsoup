@@ -1638,38 +1638,6 @@ ul.action-links {
 }
 
 
-/* =============================================================================
- *   Forms
- * ========================================================================== */
-
-/*
- * Wrapper for a form element (or group of form elements) and its label
- */
-.form-item {
-
-  input.error,
-  textarea.error,
-  select.error {
-    border: 1px solid $highlight;
-  }
-
-  label {
-    font-weight: 700;
-  }
-
-  label.option {
-  }
-
-  .description {
-    font-size: 0.85em;
-  }
-
-  &.form-checkboxes ,
-  &.form-radios {
-  }
-}
-
-
 /*
  * Highlight marks and form required mark
  */

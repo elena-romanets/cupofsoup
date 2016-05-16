@@ -3,4 +3,63 @@
         background-image: none;
         height: 0;
     }
+
+    .panel-separator {
+        display: none;
+    }
+
+    .service-content {
+        width: 960px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        label {
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        input,
+        select {
+            height: 60px;
+        }
+
+        .address input,
+        .postcode input {
+            width: 300px;
+        }
+
+        .address-number input {
+            width: 100px;
+            float: right;
+            position: relative;
+            top: -82px;
+            right: 244px;
+        }
+
+        .webform-container-inline label {
+            display: inline-block;
+            margin-right: 140px;
+            width: 150px;
+        }
+
+
+        .pane-title {
+            padding-bottom: 20px;
+            line-height: 73px;
+        }
+
+        .text-details {
+            font-size: 15px;
+            line-height: 24px;
+            padding-bottom: 50px;
+        }
+
+        .section-title {
+            padding-top: 26px;
+            padding-bottom: 36px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+
 }
