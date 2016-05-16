@@ -2,6 +2,9 @@
 // _base.scss imports _custom.scss and other partials.
 @import "base";
 
+// import service page styles
+@import "pages/service.desktop";
+
 .pane-title,
 .title {
     font-size: 45px;
