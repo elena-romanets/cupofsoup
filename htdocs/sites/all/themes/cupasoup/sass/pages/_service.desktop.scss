@@ -32,16 +32,59 @@
             width: 100px;
             float: right;
             position: relative;
-            top: -82px;
+            top: -106px;
             right: 244px;
         }
 
         .webform-container-inline label {
             display: inline-block;
-            margin-right: 140px;
             width: 150px;
+            margin-right: 120px;
+            margin-left: 20px;
         }
 
+        .form-type-radio,
+        .form-type-checkbox {
+            input {
+                display: none;
+            }
+
+            .radio-button,
+            .checkbox-button {
+                width: 32px;
+                height: 32px;
+                background-image: url("../images/radio-btn.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: inline-block;
+                cursor: pointer;
+                position: relative;
+                top: 10px;
+
+                &.active {
+                    background-image: url("../images/radio-active-black-btn.png");
+                }
+            }
+
+            .checkbox-button {
+                background-image: url("../images/checkbox-btn.png");
+
+                &.active {
+                    background-image: url("../images/checkbox-active-btn.png");
+                }
+            }
+        }
+
+        .form-item, .form-actions {
+            margin: 40px 0;
+        }
+
+        .supplier-options,
+        .webform-component-checkboxes {
+            label {
+                margin-left: 10px;
+            }
+        }
 
         .pane-title {
             padding-bottom: 20px;

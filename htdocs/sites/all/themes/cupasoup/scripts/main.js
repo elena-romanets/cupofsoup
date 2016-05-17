@@ -107,6 +107,51 @@
       //console.log('prices:', prices);
       //console.log('items:', items);
     });
+
+
+
+    //  Form fields
+
+    $('.form-type-radio').prepend('<span class="radio-button"></span>');
+
+    $('.form-type-radio input').each(function() {
+      if ($(this).is(':checked')) {
+        $('.form-type-radio .radio-button').removeClass('active');
+        $(this).parent('div').children('.radio-button').addClass('active');
+      }
+    });
+
+    $('.form-type-radio input').bind('change',function() {
+      if ($(this).is(':checked')) {
+        $('.form-type-radio .radio-button').removeClass('active');
+        $(this).parent('div').children('.radio-button').addClass('active');
+      }
+    });
+
+    $('.form-type-radio .radio-button').bind('click',function() {
+      $('.form-type-radio input').attr('checked','');
+      $(this).parent('div').children('input').attr('checked','checked');
+
+      $('.form-type-radio .radio-button').removeClass('active');
+      $(this).parent('div').children('.radio-button').addClass('active');
+    });
+
+    // Checkbox
+    $('.form-type-checkbox').prepend('<span class="checkbox-button"></span>');
+
+    $('.form-type-checkbox .checkbox-button').bind('click',function() {
+      if ($(this).parent('div').children('input').is(':checked')) {
+          $('.form-type-checkbox .checkbox-button').removeClass('active');
+          $(this).parent('div').children('input').attr('checked','');
+      }
+      else {
+        $(this).parent('div').children('.checkbox-button').addClass('active');
+        $(this).parent('div').children('input').attr('checked','checked');
+      }
+
+    });
   });
+
+
 
 })(jQuery);
