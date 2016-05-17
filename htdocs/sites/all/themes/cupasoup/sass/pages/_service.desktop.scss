@@ -20,7 +20,9 @@
 
         input,
         select {
-            height: 60px;
+            padding: 5px 20px;
+            font-size: 15px;
+            height: 52px;
         }
 
         .address input,
@@ -33,7 +35,7 @@
             float: right;
             position: relative;
             top: -106px;
-            right: 244px;
+            right: 165px;
         }
 
         .webform-container-inline label {
