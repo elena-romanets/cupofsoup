@@ -1,34 +1,34 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003195}}
 .bottom-30 {
   margin-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003199}}
 .bottom-80 {
   margin-bottom: 80px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003203}}
 .bottom-90 {
   margin-bottom: 90px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003207}}
 .bottom-95 {
   margin-bottom: 95px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003212}}
 .bottom-120 {
   margin-bottom: 120px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003216}}
 .top-95 {
   margin-top: 95px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003220}}
 .center {
   text-align: center;
 }
@@ -50,7 +50,7 @@
 /*
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000324}}
 article,
 aside,
 details,
@@ -69,7 +69,7 @@ summary {
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000343}}
 audio,
 canvas,
 video {
@@ -82,7 +82,7 @@ video {
  * Prevents modern browsers from displaying 'audio' without controls
  * Remove excess height in iOS5 devices
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000356}}
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -92,7 +92,7 @@ audio:not([controls]) {
  * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
  * Known issue: no IE6 support
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000366}}
 [hidden] {
   display: none;
 }
@@ -109,7 +109,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000384}}
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
@@ -121,7 +121,7 @@ html {
 /*
  * 1 . Addresses margins handled incorrectly in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\0000396}}
 body {
   min-height: 100%;
   margin: 0;
@@ -135,7 +135,7 @@ body {
 /*
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003109}}
 button,
 input,
 select,
@@ -149,7 +149,7 @@ textarea {
 /*
  * Addresses outline displayed oddly in Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003124}}
 a:focus {
   outline: thin dotted;
 }
@@ -158,7 +158,7 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003133}}
 a:hover,
 a:active {
   outline: 0;
@@ -173,37 +173,37 @@ a:active {
  * Addresses font sizes and margins set differently in IE6/7
  * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003150}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003156}}
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003162}}
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003168}}
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003174}}
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003180}}
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
@@ -212,7 +212,7 @@ h6 {
 /*
  * Addresses styling not present in IE7/8/9, S5, Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003189}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -220,13 +220,13 @@ abbr[title] {
 /*
  * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003197}}
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003203}}
 blockquote {
   margin: 1em 40px;
 }
@@ -234,7 +234,7 @@ blockquote {
 /*
  * Addresses styling not present in S5, Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003211}}
 dfn {
   font-style: italic;
 }
@@ -242,7 +242,7 @@ dfn {
 /*
  * Addresses styling not present in IE6/7/8/9
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003219}}
 mark {
   background: #ff0;
   color: #000;
@@ -251,7 +251,7 @@ mark {
 /*
  * Addresses margins set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003228}}
 p,
 pre {
   margin: 0 0 1.5em;
@@ -261,7 +261,7 @@ pre {
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003238}}
 pre,
 code,
 kbd,
@@ -274,7 +274,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003251}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -285,19 +285,19 @@ pre {
  * 1. Addresses CSS quotes not supported in IE6/7
  * 2. Addresses quote property not supported in S4
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003263}}
 q {
   quotes: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003268}}
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003275}}
 small {
   font-size: 75%;
 }
@@ -306,7 +306,7 @@ small {
  * Prevents sub and sup affecting line-height in all browsers
  * gist.github.com/413930
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003284}}
 sub,
 sup {
   font-size: 75%;
@@ -315,12 +315,12 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003293}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003298}}
 sub {
   bottom: -0.25em;
 }
@@ -331,7 +331,7 @@ sub {
 /*
  * Addresses margins set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003310}}
 dl,
 menu,
 ol,
@@ -339,7 +339,7 @@ ul {
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003318}}
 dd {
   margin: 0 0 0 40px;
 }
@@ -347,7 +347,7 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003326}}
 menu,
 ol,
 ul {
@@ -357,7 +357,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003336}}
 nav ul,
 nav ol {
   list-style: none;
@@ -372,7 +372,7 @@ nav ol {
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003352}}
 img {
   /* border: 0; */
   /* Drupal core already does this, uncomment if you need it */
@@ -382,7 +382,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE9
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003361}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -393,7 +393,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE6/7/8/9, S5, O11
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003373}}
 figure {
   margin: 0;
 }
@@ -404,7 +404,7 @@ figure {
 /*
  * Corrects margin displayed oddly in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003385}}
 form {
   margin: 0;
 }
@@ -412,7 +412,7 @@ form {
 /*
  * Define consistent margin, and padding
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003393}}
 fieldset {
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
@@ -423,7 +423,7 @@ fieldset {
  * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003404}}
 legend {
   border: 0;
   padding: 0;
@@ -436,7 +436,7 @@ legend {
  * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
  * 3. Improves appearance and consistency in all browsers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003417}}
 button,
 input,
 select,
@@ -450,7 +450,7 @@ textarea {
 /*
  * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003431}}
 button,
 input {
   line-height: normal;
@@ -462,7 +462,7 @@ input {
  * 3. Removes inner spacing in IE7 without affecting normal text inputs
  *    Known issue: inner spacing remains in IE6
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003443}}
 button,
 input[type="button"],
 input[type="reset"],
@@ -475,7 +475,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003456}}
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -487,7 +487,7 @@ input[disabled] {
  * 3. Removes excess padding in IE7
  *    Known issue: excess padding remains in IE6
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003468}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -500,7 +500,7 @@ input[type="radio"] {
  * 1. Addresses appearance set to searchfield in S5, Chrome
  * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003481}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003481}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -511,7 +511,7 @@ input[type="search"] {
 /*
  * Removes inner padding and search cancel button in S5, Chrome on OS X
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003492}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003492}}
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
@@ -521,7 +521,7 @@ input[type="search"]::-webkit-search-cancel-button {
  * Removes inner padding and border in FF3+
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003502}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003502}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -532,7 +532,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003513}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003513}}
 textarea {
   overflow: auto;
   vertical-align: top;
@@ -544,7 +544,7 @@ textarea {
 /*
  * 1. Remove most spacing between table cells
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003526}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003526}}
 table {
   border: 1px solid;
   border-spacing: 0;
@@ -565,7 +565,7 @@ table {
  * Panel pages need negative margin equal to the gutter width applied to #content,
  * this is taken care of in theme settings as per above for normal gutters
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003564}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003564}}
 #content .panel-display,
 #content .panel-flexible {
   margin-left: -10px;
@@ -582,14 +582,14 @@ table {
  *   the "dissappering images" bug in IE8.
  * - Mapping services such as Google Maps may break also, see below for fixes.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003583}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003583}}
 img {
   height: auto;
   -ms-interpolation-mode: bicubic;
 }
 
 /* Ethan Marcotte - http://front.ie/l8rJaA */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003590}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003590}}
 img,
 embed,
 object,
@@ -598,7 +598,7 @@ video {
 }
 
 /* Disable flexiblity for IE8 and below */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003599}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003599}}
 .lt-ie9 img,
 .lt-ie9 object,
 .lt-ie9 embed,
@@ -607,7 +607,7 @@ video {
 }
 
 /* Override max-width 100% for map displays */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003608}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003608}}
 #map img,
 .gmap img,
 .view-gmap img,
@@ -625,7 +625,7 @@ video {
     Misc helpers, Accessibility classes etc
    ========================================================================== */
 /* Prevent overflowing content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003627}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003627}}
 header[role=banner],
 .content-inner,
 .nav,
@@ -647,7 +647,7 @@ header[role=banner],
  * Kellum Method: http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement
  * Additional helpers from http://html5boilerplate.com/docs/css/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003650}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003650}}
 .ir {
   /* Kellum Method */
   display: block !important;
@@ -667,7 +667,7 @@ header[role=banner],
 }
 
 /* More robust element-invisible and element-focuable classes */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003670}}
 .element-invisible {
   border: 0;
   clip: rect(1px 1px 1px 1px);
@@ -680,7 +680,7 @@ header[role=banner],
   width: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003682}}
 .element-invisible.element-focusable:active,
 .element-invisible.element-focusable:focus {
   clip: auto;
@@ -691,7 +691,7 @@ header[role=banner],
 }
 
 /* Shift content offscreen, can be usefull when you reall need to do this */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003693}}
 .offscreen {
   position: absolute;
   top: -99999em;
@@ -702,18 +702,18 @@ header[role=banner],
 }
 
 /* Hide content from all users */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003704}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003704}}
 .element-hidden {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003708}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003708}}
 .panels-flexible-2 .panels-flexible-row {
   padding: 0;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003713}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003713}}
 .panels-flexible-region-2-center_,
 .panels-flexible-region-1-bottom,
 .panels-flexible-region-2-center,
@@ -722,7 +722,7 @@ header[role=banner],
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/projects\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003721}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003721}}
 .systemen-footer {
   margin: 20px;
 }

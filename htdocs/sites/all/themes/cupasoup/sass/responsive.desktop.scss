@@ -8,6 +8,7 @@
 .pane-title,
 .title {
     font-size: 45px;
+    line-height: 55px;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0;
@@ -182,9 +183,18 @@ a.button,
             position: relative;
             width: 50%;
             height: auto;
+
+            .pane-title,
+            .details-txt,
+            p {
+                max-width: 500px;
+                margin: 35px auto 20px;
+                padding-left: 18px;
+            }
         }
 
-        &.header-details-assortiments {
+        &.header-details-assortiments,
+        &.header-details-systemen {
 
             height: 410px;
 
@@ -210,6 +220,7 @@ a.button,
                 background-size: contain;
                 background-position: 50% 0;
                 height: 212px;
+                bottom: 0;
                 float: right;
             }
 
@@ -218,6 +229,7 @@ a.button,
                 background-size: contain;
                 background-position: 50% 0;
                 height: 269px;
+                bottom: 0;
                 float: right;
             }
         }
@@ -373,8 +385,8 @@ a.button,
 .systemen-overview {
     display: block;
     color: $white;
-    margin: 20px;
-    top: -160px;
+    margin: 20px 12px;
+    //top: -160px;
 
     .systemen {
         display: block;
@@ -444,9 +456,30 @@ a.button,
 
     .systemen-footer-section-1 {
         width: 50%;
-        display: block;
+        display: inline-block;
         float: left;
-        padding: 20px;
+        padding: 56px 0 24px 151px;
+
+        .title {
+            margin-bottom: 10px;
+        }
+    }
+
+    .systemen-footer-section-2 {
+        padding: 56px 0 24px 108px;
+        display: inline-block;
+
+        .title {
+            margin-bottom: 10px;
+        }
+
+        .description {
+            margin: 25px 0;
+        }
+    }
+
+    .systemen-footer {
+        margin-bottom: 45px;
     }
 
 
@@ -641,6 +674,12 @@ a.button,
 }
 
 // Systemen details page
+.systemen {
+
+    .region-header {
+        height: 659px;
+    }
+}
 
 .systemen-details {
     .block {
@@ -704,15 +743,182 @@ a.button,
     tr,
     td {
         border: none;
+        width: 640px;
+        color: $grey_light;
     }
 
     table {
+        width: 640px;
+        display: inline-block;
 
         tr {
 
             &:last-child {
                 line-height: 55px;
             }
+        }
+    }
+
+    .total-wrapper {
+        width: 300px;
+        float: right;
+    }
+
+    .bottom-wrapper {
+        color: $black_light;
+        padding: 130px 0 170px 0;
+
+        .details-text {
+            width: 640px;
+            float: left;
+            display: block;
+        }
+
+        .button.btn-more {
+            text-align: right;
+            padding-right: 120px;
+        }
+    }
+}
+
+@media (min-width: 1300px) {
+
+    .region-header .header-details .product-img {
+        bottom: 60px;
+    }
+
+}
+
+@media (max-width: 1278px) {
+
+    .region-header ul.menu li a {
+        font-size: 12px;
+    }
+
+    .region-header .header-details .text .pane-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .desc-section-more .product-items {
+        display: block;
+    }
+
+    .desc-section-more .product-items .item {
+        float: none;
+        margin-bottom: 10px;
+        max-width: 100%;
+        min-width: 100%;
+        height: 330px;
+    }
+
+    .desc-section-more .product-items .item .product-img,
+    .desc-section-more .product-items .item .product-img .text {
+        display: inline-block;
+        width: 50%;
+        height: 330px;
+    }
+
+    .desc-section-more .product-items .item .product-img {
+        float: right;
+
+        img {
+            top: 70px;
+            position: relative;
+        }
+    }
+
+    .desc-section .product-img {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .assortiment-menu .tabs-items .item,
+    .assortiment-menu .tabs-items .item a {
+        width: 220px;
+    }
+
+    .assortiment-menu .tabs-items,
+    .assortiment-details .block-content {
+        width: 100%;
+    }
+
+    .assortiment-block .block-title,
+    .assortiment-block .view,
+    .assortiment-total-price,
+    .systemen-details .wrapper-text,
+    .systemen-details .block-2,
+    .systemen-details .block-3,
+    .systemen-details .block-4,
+    .systemen-details .block-5,
+    .systemen-details .system-video,
+    #youtube-field-player {
+        width: 90%;
+    }
+
+    .systemen-details .block .cell {
+        max-width: 240px;
+        margin-right: 50px;
+    }
+    
+    .page-service .service-content {
+        width: 850px;
+        padding: 0;
+    }
+
+    .page-service .service-content .webform-container-inline label {
+        margin-right: 80px;
+    }
+
+    .page-service .service-content .address-number input {
+        right: 90px;
+    }
+
+    .assortiment-details .block-content .text {
+        padding-left: 20px;
+    }
+
+    .assortiment-total-price table,
+    .assortiment-total-price td,
+    .assortiment-total-price .bottom-wrapper .details-text {
+        width: 450px;
+    }
+
+    .assortiment-total-price .bottom-wrapper .button.btn-more {
+        padding-right: 90px;
+    }
+    .assortiment-total-price table tr td {
+        &:last-child {
+            text-align: right;
+        }
+    }
+
+    .assortiment-block table tbody tr .sm-title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .assortiment-block table tbody tr .prod-link {
+        padding-bottom: 20px;
+
+        .product-assortiment-image {
+            float: none;
+        }
+    }
+
+    .assortiment-total-price .total-wrapper {
+        width: 270px;
+    }
+
+
+    .systemen-footer-section-1 {
+        padding: 56px 0 24px;
+
+        .title,
+        .details-text {
+            padding-left: 50px;
         }
     }
 }
