@@ -41,7 +41,10 @@ a.button,
     text-decoration: none;
     cursor: pointer;
 
+    transition: background .2s ease-in;
+
     &:hover {
+        background: $green_btn_hover;
         text-decoration: none;
     }
 
@@ -112,6 +115,13 @@ a.button,
     }
 }
 
+.region-header ul.menu li {
+    transition: background .2s ease-in;
+
+    &:hover {
+        background: $green_btn_hover;
+    }
+}
 
 .region-header {
     height: 900px;
@@ -862,7 +872,7 @@ a.button,
         max-width: 240px;
         margin-right: 50px;
     }
-    
+
     .page-service .service-content {
         width: 850px;
         padding: 0;
