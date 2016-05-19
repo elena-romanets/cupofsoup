@@ -5,6 +5,10 @@
 // import service page styles
 @import "pages/service.desktop";
 
+.mob-menu {
+    display: none;
+}
+
 .pane-title,
 .title {
     font-size: 45px;

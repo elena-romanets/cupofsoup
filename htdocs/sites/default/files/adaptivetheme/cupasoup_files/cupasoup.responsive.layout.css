@@ -1,7 +1,7 @@
 /* Gutters are not currently overridden in theme settings, but may be in theme CSS */
 
 /* smalltouch_landscape one_col_vert */
-@media only screen and (min-width:321px) and (max-width:580px) {
+@media only screen and (min-width:321px) and (max-width:900px) {
 .container {width:100%}
 .two-sidebars .content-inner,.one-sidebar .content-inner,.region-sidebar-first,.region-sidebar-second {margin-left: 0; margin-right: 0}
 .region-sidebar-first {width: 50%}

@@ -1,43 +1,820 @@
 
 // _base.scss imports _custom.scss and other partials.
 @import "base";
+@import "pages/service.desktop";
 
-/*
- *   Important Information about this CSS File
- *
- * - Do not delete or rename this file, if you do not use it leave it blank (delete
- *   everything) and the file will be skipped when you enable Production Mode in
- *   the Global theme settings.
- *
- * - Read the _README file in this directory, it contains useful help and other information.
- */
 
-/* Increase the default font size on small touch devices */
-body {
-  font-size: 100%;
+.top-menu,
+.region-header .main-menu.main-menu-list {
+  display: none;
 }
 
-/* =============================================================================
- *   Mobile Menu Toggle
- *   See your theme settings extensions for how to enable the menu toggle.
- *   These are example styles for the menu toggle menu, you can use these in the
- *   relevant responsive stylesheets as required. Modify to suit your design.
- * ========================================================================== */
-.at-mt .at-menu-toggle {
-  /* The toggle link */
-  h2 {
-    margin-bottom: 5px;
-    
-    a {
-      background: #eee;
-      border: 2px solid #ccc;
-      padding: 2px 10px;
+.pane-title,
+.title {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+
+  &.sm-title {
+    font-size: 36px;
+  }
+}
+
+
+a.button,
+.button a,
+.webform-submit.button-primary {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: 40px;
+  padding: 0 60px 0 40px;
+  background: $green;
+  border: 4px solid $white;
+  -webkit-box-shadow: 6px 6px rgba(41, 117, 24, 0.7);
+  -moz-box-shadow: 6px 6px rgba(41, 117, 24, 0.7);
+  box-shadow: 6px 6px rgba(41, 117, 24, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 40px;
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: background .2s ease-in;
+
+  &:hover {
+    background: $green_btn_hover;
+    text-decoration: none;
+  }
+
+  &:after {
+    display: block;
+    position: absolute;
+    content: '';
+    background: url('../images/arrow-right.png') no-repeat;
+    width: 23px;
+    height: 12px;
+    right: 17px;
+    bottom: 15px;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.systemen-details .wrapper-text,
+.systemen-details .block-2,
+.systemen-details .block-3,
+.systemen-details .block-4,
+.systemen-details .block-5,
+.systemen-details .system-video {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.block .cell .block-title {
+  font-size: 15px;
+  color: $yellow_light2;
+}
+
+// Top header section
+
+.region-top-header {
+  height: 90px;
+  width: 100%;
+  background: $green;
+
+  .mob-menu {
+    position: relative;
+    display: block;
+    z-index: 10;
+
+    width: 54px;
+    height: 44px;
+    background: url('../images/mob-menu-icon.png') no-repeat;
+    background-size: contain;
+
+    float: right;
+    top: 15px;
+    right: 15px;
+
+    ul.menu {
+      display: none;
+    }
+  }
+}
+
+.region-top-header,
+.region-footer {
+  ul.menu {
+    display: inline;
+    float: right;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline;
+      list-style-type: none;
+      padding: 0 32px 0 2px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 40px;
+      color: $white;
+      text-align: right;
+      text-transform: uppercase;
+
+      a {
+        cursor: pointer;
+        color: inherit;
+        text-decoration: inherit;
+      }
+    }
+  }
+}
+
+.region-header ul.menu li {
+  transition: background .2s ease-in;
+
+  &:hover {
+    background: $green_btn_hover;
+  }
+}
+
+.region-header {
+  height: 900px;
+  background: url('../images/main-header-bg.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .logo {
+    display: block;
+    position: relative;
+    top: -22px;
+    left: 15px;
+    width: 180px;
+    height: auto;
+
+    img {
+      width: 180px;
+      height: auto;
     }
   }
 
-  /* Menu items */
-  ul.menu li a {
-    background: #eee;
-    border-bottom: 1px solid #fff;
+  .main-menu {
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 41px;
+  }
+
+  ul.menu {
+    display: block;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: block;
+      width: auto;
+      list-style-type: none;
+      text-decoration: none;
+      float: left;
+      margin-right: 20px;
+      background: $green;
+      border: 4px solid $white;
+      -webkit-box-shadow: 6px 6px rgba(41, 117, 24, 0.7);
+      -moz-box-shadow: 6px 6px rgba(41, 117, 24, 0.7);
+      box-shadow: 6px 6px rgba(41, 117, 24, 0.7);
+
+      a {
+        padding: 15px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: 700;
+        color: $white;
+      }
+    }
+  }
+
+  .header-details {
+    position: relative;
+    display: block;
+    width: auto;
+    height: 590px;
+    background: $yellow;
+    border: 20px solid $white;
+    margin: 0 32px;
+
+    .block-content {
+      padding: 100px;
+    }
+
+    .text {
+      display: inline-block;
+      position: relative;
+      width: 50%;
+      height: auto;
+
+      .pane-title,
+      .details-txt,
+      p {
+        max-width: 500px;
+        margin: 35px auto 20px;
+        padding-left: 18px;
+      }
+    }
+
+    &.header-details-assortiments,
+    &.header-details-systemen {
+
+      height: 410px;
+
+      .text {
+        text-align: center;
+      }
+    }
+
+    .product-img {
+      display: inline-block;
+      position: relative;
+      background: url("../images/product.png") no-repeat;
+      width: 50%;
+      height: 529px;
+      right: 0;
+      bottom: 0;
+      float: right;
+      background-size: contain;
+      background-position: 50% 0;
+
+      &.assortiment {
+        background: url("../images/assoriment-prod.png") no-repeat;
+        background-size: contain;
+        background-position: 50% 0;
+        height: 212px;
+        bottom: 0;
+        float: right;
+      }
+
+      &.systemen {
+        background: url("../images/systemen.png") no-repeat;
+        background-size: contain;
+        background-position: 50% 0;
+        height: 269px;
+        bottom: 0;
+        float: right;
+      }
+    }
+  }
+}
+
+
+.desc-section {
+  display: block;
+  position: relative;
+  height: 450px;
+  padding-top: 135px;
+
+  .pane-title {
+    text-align: center;
+    color: $green;
+    margin: 130px 0 50px 0;
+  }
+
+  .details-txt {
+    font-size: 15px;
+    color: #2a2927;
+    width: 515px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+  }
+
+  .product-img {
+    display: block;
+    position: absolute;
+    right: 0;
+    background: url("../images/product-img-2.png") no-repeat;
+    width: 503px;
+    height: 529px;
+    bottom: -60px;
+    background-size: cover;
+    z-index: 10;
+  }
+}
+
+
+
+// Section details 2
+.desc-section-more {
+  display: block;
+  position: relative;
+  background: $green;
+  min-height: 1025px;
+
+  &-footer {
+    display: block;
+    position: absolute;
+    background: url("../images/footer.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    z-index: 1;
+    bottom: 0;
+  }
+
+  .pane-title {
+    font-size: 36px;
+    color: $yellow_light;
+
+    padding-top: 90px;
+    margin-bottom: 23px;
+    text-align: center;
+  }
+
+  .details-txt {
+    font-size: 15px;
+    color: $white;
+    width: 515px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+  }
+
+  .product-items {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    background: $white;
+    margin: 80px 20px 0;
+    padding: 10px;
+    width: auto;
+    min-height: 560px;
+
+    .item {
+      display: block;
+      max-width: 250px;
+      min-width: 220px;
+      height: 517px;
+      background: $yellow;
+      float: left;
+      margin-right: 20px;
+      padding-top: 38px;
+      text-align: center;
+
+      .details-txt {
+        width: auto;
+        margin-bottom: 35px;
+        color: $black_light;
+      }
+
+      .prod-title {
+        font-size: 24px;
+        color: $black_light;
+        margin: 60px auto 17px;
+      }
+
+      .button a {
+        margin-bottom: 40px;
+      }
+
+      &-1 {
+        .product-img {
+          background: url("../images/header-carrousel.png") no-repeat;
+          width: 136px;
+          height: 205px;
+          margin: 0 auto;
+        }
+      }
+
+      &.last {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+// Footer section
+
+.region-footer {
+  display: block;
+  width: 100%;
+  height: 90px;
+  background: $black_light;
+
+  ul.menu {
+    margin-top: 30px;
+  }
+}
+
+
+
+
+
+// Systemen overview page
+
+.systemen-overview {
+  display: block;
+  color: $white;
+  margin: 20px 12px;
+  //top: -160px;
+
+  .systemen {
+    display: block;
+    height: 410px;
+    padding: 70px 10px 0 10px;
+    margin: 20px 0;
+
+    &.red {
+      background-color: $red;
+    }
+    &.blue {
+      background-color: $blue_light;
+    }
+    &.green {
+      background-color: $green_light;
+    }
+
+    .product-img {
+      float: left;
+      width: 50%;
+      text-align: center;
+    }
+
+    .prod-title {
+      font-size: 36px;
+      line-height: 36px;
+    }
+
+    .product-text {
+      float: left;
+      width: 50%;
+
+      .product-txt {
+        font-size: 15px;
+        line-height: 30px;
+
+        .bold {
+          font-weight: 700;
+        }
+      }
+
+      .product-details-desc {
+        color: $black_light;
+      }
+
+      .product-links {
+        margin-top: 40px;
+
+        .btn-more {
+          width: 50%;
+          float: left;
+        }
+
+        .product-details-info {
+          padding: 12px 0 0 0;
+          color: $white;
+          text-decoration: underline;
+
+          a {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.systemen-footer-section-1 {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  padding: 56px 0 24px 151px;
+
+  .title {
+    margin-bottom: 10px;
+  }
+}
+
+.systemen-footer-section-2 {
+  padding: 56px 0 24px 108px;
+  display: inline-block;
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .description {
+    margin: 25px 0;
+  }
+}
+
+.systemen-footer {
+  margin-bottom: 45px;
+}
+
+
+// assortiment blocks
+
+.assortiment-menu {
+  .tabs-items {
+    position: relative;
+    top: 73px;
+    width: 1080px;
+    margin: 0 auto;
+
+    .item {
+      display: block;
+      float: left;
+      cursor: pointer;
+      background-color: $white;
+
+      text-align: center;
+      width: 270px;
+      height: 90px;
+
+      a {
+        font-size: 18px;
+        color: $black_light;
+        display: block;
+        width: 270px;
+        height: 90px;
+        line-height: 90px;
+
+        &.active,
+        &:hover {
+          text-decoration: none;
+          background-color: $blue;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.assortiment-details {
+  margin-top: 70px;
+
+  .pane-title {
+    color: $green_light;
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .block-content {
+    width: 1080px;
+    margin: 0 auto;
+  }
+}
+
+
+.assortiment-block {
+
+  &.assortiment-popular .block-content {
+    background-color: $grey;
+  }
+
+  .block-title {
+    font-size: 36px;
+  }
+
+  .block-title,
+  .view {
+    width: 1080px;
+    margin: 0 auto;
+  }
+
+  table {
+    border: none;
+    table-layout: fixed;
+
+    th:first-child,
+    th:nth-child(2),
+    th:nth-child(3),
+    .prod-link {
+      text-align: left;
+    }
+
+    th {
+      text-align: center;
+      color: $grey_dark;
+      font-size: 18px;
+      padding: 19px 0 33px 0;
+
+      &:last-child {
+        width: 140px;
+      }
+      &:nth-child(2) {
+        width: 180px;
+      }
+      &:nth-child(3) {
+        width: 215px;
+      }
+
+    }
+
+    tbody {
+      tr {
+        height: 230px;
+        border-bottom: 1px solid #ccc;
+
+        td {
+          text-align: center;
+        }
+
+        .prod-link {
+          padding-top: 17px;
+        }
+
+        .prod-amount,
+        .prod-price {
+          text-align: left;
+        }
+
+        .prod-amount {
+          padding-left: 20px;
+        }
+
+        .product-assortiment-image {
+          float: left;
+          margin: 0 38px 0 -1px;
+        }
+
+        .product-assortiment-link {
+          font-size: 15px;
+          color: $green_light;
+          text-decoration: underline;
+
+        }
+
+        .sm-title {
+          margin-bottom: 10px;
+          padding-top: 32px;
+          line-height: 32px;
+        }
+
+        .form-placeholder {
+          input {
+            width: 58px;
+            height: 34px;
+            text-align: center;
+          }
+
+          .minus,
+          .plus {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            width: 16px;
+            height: 16px;
+            text-indent: -99999px;
+
+            &:before {
+              content: '';
+              display: block;
+              width: 100%;
+              height: 2px;
+              position: absolute;
+              top: 12px;
+              background: $green;
+            }
+          }
+
+          .minus {
+            margin-right: 20px;
+          }
+
+          .plus {
+            margin-left: 20px;
+
+            &:after {
+              content: '';
+              display: block;
+              width: 2px;
+              height: 100%;
+              position: absolute;
+              left: 7px;
+              top: 5px;
+              background: $green;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Systemen details page
+.systemen {
+
+  .region-header {
+    height: 659px;
+  }
+}
+
+.systemen-details {
+  .block {
+    &.blue {
+      background-color: $blue_bg;
+      color: $white;
+    }
+
+    .cell {
+      max-width: 250px;
+      display: block;
+      float: left;
+      margin-right: 100px;
+
+      .title {
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  .block-1 {
+    .title {
+      padding: 170px 0 75px 0;
+    }
+
+    .details-txt {
+      padding: 0 0 70px 0;
+      max-width: 730px;
+    }
+  }
+  .block-2 {
+    .details-txt {
+      padding: 75px 0 70px 0;
+      max-width: 380px;
+      line-height: 30px;
+    }
+  }
+}
+
+
+.assortiment {
+
+  .region-header {
+    height: 769px;
+  }
+}
+
+
+.assortiment-total-price {
+  width: 1080px;
+  margin: 60px auto 0;
+
+  .pane-title {
+    font-size: 17px;
+    margin-bottom: 27px;
+  }
+
+  table,
+  thead,
+  tbody,
+  tr,
+  td {
+    border: none;
+    width: 640px;
+    color: $grey_light;
+  }
+
+  table {
+    width: 640px;
+    display: inline-block;
+
+    tr {
+
+      &:last-child {
+        line-height: 55px;
+      }
+    }
+  }
+
+  .total-wrapper {
+    width: 300px;
+    float: right;
+  }
+
+  .bottom-wrapper {
+    color: $black_light;
+    padding: 130px 0 170px 0;
+
+    .details-text {
+      width: 640px;
+      float: left;
+      display: block;
+    }
+
+    .button.btn-more {
+      text-align: right;
+      padding-right: 120px;
+    }
   }
 }
