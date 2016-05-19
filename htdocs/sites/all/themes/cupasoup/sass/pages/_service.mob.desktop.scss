@@ -1,0 +1,110 @@
+.page-service {
+    .region-header {
+        height: 80px;
+        background-image: none;
+    }
+
+    .panel-separator {
+        display: none;
+    }
+
+    .service-content {
+        margin: 0 auto;
+        padding: 0 20px;
+
+        label {
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        input,
+        select {
+            border: 1px solid $black_light;
+            padding: 5px 20px;
+            font-size: 15px;
+            height: 52px;
+        }
+
+        .address input,
+        .postcode input {
+            width: 300px;
+        }
+
+        .address-number input {
+            width: 100px;
+            float: right;
+            position: relative;
+            top: -106px;
+            right: 165px;
+        }
+
+        .webform-container-inline label {
+            display: inline-block;
+            //width: 150px;
+            //margin-right: 120px;
+            //margin-left: 20px;
+        }
+
+        .form-type-radio,
+        .form-type-checkbox {
+            input {
+                display: none;
+            }
+
+            .radio-button,
+            .checkbox-button {
+                width: 32px;
+                height: 32px;
+                background-image: url("../images/radio-btn.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: inline-block;
+                cursor: pointer;
+                position: relative;
+                top: 10px;
+
+                &.active {
+                    background-image: url("../images/radio-active-black-btn.png");
+                }
+            }
+
+            .checkbox-button {
+                background-image: url("../images/checkbox-btn.png");
+
+                &.active {
+                    background-image: url("../images/checkbox-active-btn.png");
+                }
+            }
+        }
+
+        .form-item, .form-actions {
+            margin: 0;
+        }
+
+        .supplier-options,
+        .webform-component-checkboxes {
+            label {
+                margin-left: 10px;
+            }
+        }
+
+        .pane-title {
+            padding-bottom: 20px;
+            line-height: 73px;
+        }
+
+        .text-details {
+            font-size: 15px;
+            line-height: 24px;
+            padding-bottom: 50px;
+        }
+
+        .section-title {
+            padding-top: 26px;
+            padding-bottom: 36px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+
+}

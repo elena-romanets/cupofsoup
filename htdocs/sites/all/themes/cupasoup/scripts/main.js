@@ -150,6 +150,17 @@
       }
 
     });
+
+    $('.mob-menu .block-content').append('<span class="menuIcon"><span></span></span>');
+
+    // init menu
+    $('.mob-menu .menuIcon').on('click', function(){
+      $('.mob-menu ul').toggleClass('show');
+      $(this).toggleClass("close");
+    });
+
+
+
   });
 
 

@@ -14,6 +14,7 @@
   ; See each stylesheet for extensive documentation and help.
   stylesheets[screen][] = css/global.base.css
   stylesheets[screen][] = css/global.styles.css
+  stylesheets[screen][] = css/owl.carousel.css
 
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
@@ -467,7 +468,7 @@
   settings[icon_rel] = 0
 
 
-  ; Custom CSS
+  ; Custom JS
   settings[custom_css] = ''
   scripts[] = scripts/main.js
 

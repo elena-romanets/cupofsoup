@@ -1,18 +1,19 @@
 
 // _base.scss imports _custom.scss and other partials.
 @import "base";
-@import "pages/service.desktop";
+@import "pages/service.mob.desktop";
 
 
 .top-menu,
-.region-header .main-menu.main-menu-list {
+.region-header .main-menu.main-menu-list,
+.desc-section .product-img {
   display: none;
 }
 
 .pane-title,
 .title {
-  font-size: 45px;
-  line-height: 55px;
+  font-size: 20px;
+  line-height: 25px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -73,8 +74,9 @@ a.button,
 .systemen-details .block-3,
 .systemen-details .block-4,
 .systemen-details .block-5,
-.systemen-details .system-video {
-  width: 1080px;
+.systemen-details .system-video,
+#youtube-field-player {
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -95,17 +97,76 @@ a.button,
     display: block;
     z-index: 10;
 
-    width: 54px;
-    height: 44px;
-    background: url('../images/mob-menu-icon.png') no-repeat;
-    background-size: contain;
-
-    float: right;
-    top: 15px;
-    right: 15px;
-
     ul.menu {
+      width: 100%;
+      height: 420px;
+      background: green;
+      padding-top: 100px;
       display: none;
+    }
+
+    ul.menu.show {
+      display: block;
+    }
+
+    ul.menu.close {
+      display: none;
+    }
+
+    ul.menu li {
+      font-size: 18px;
+      text-align: left;
+      padding: 5px 10px 5px 32px;
+      border-top: 1px solid $grey_light;
+    }
+
+    .menuIcon {
+      height: 80px;
+      width: 66px;
+      position: absolute;
+      display: block;
+      top: 15px;
+      right: 15px;
+      bottom: 0;
+      cursor: pointer;
+
+      span,
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        height: 5px;
+        background: $white;
+      }
+
+      @include transition(all 180ms ease);
+
+      &:before {
+        top: 10px;
+      }
+      span {
+        top: 30px;
+      }
+      &:after {
+        top: 50px;
+      }
+
+      &.close {
+        @include transform(rotate(360deg));
+
+        span {
+          opacity: 0;
+        }
+        &:before {
+          @include transform(rotate(45deg) translate(13px,19px));
+        }
+        &:after {
+          @include transform(rotate(-45deg) translate(10px, -14px));
+        }
+      }
     }
   }
 }
@@ -113,13 +174,13 @@ a.button,
 .region-top-header,
 .region-footer {
   ul.menu {
-    display: inline;
+    display: block;
     float: right;
     padding: 0;
     margin: 0;
 
     li {
-      display: inline;
+      display: block;
       list-style-type: none;
       padding: 0 32px 0 2px;
       font-family: Arial, Helvetica, sans-serif;
@@ -156,7 +217,7 @@ a.button,
   .logo {
     display: block;
     position: relative;
-    top: -22px;
+    top: -70px;
     left: 15px;
     width: 180px;
     height: auto;
@@ -209,23 +270,24 @@ a.button,
     width: auto;
     height: 590px;
     background: $yellow;
-    border: 20px solid $white;
-    margin: 0 32px;
+    border: 15px solid $white;
+    margin: 0 12px;
 
     .block-content {
-      padding: 100px;
+      padding: 0;
     }
 
     .text {
       display: inline-block;
       position: relative;
-      width: 50%;
+      width: 100%;
       height: auto;
+      text-align: center;
 
       .pane-title,
       .details-txt,
       p {
-        max-width: 500px;
+        max-width: 300px;
         margin: 35px auto 20px;
         padding-left: 18px;
       }
@@ -245,7 +307,7 @@ a.button,
       display: inline-block;
       position: relative;
       background: url("../images/product.png") no-repeat;
-      width: 50%;
+      width: 100%;
       height: 529px;
       right: 0;
       bottom: 0;
@@ -284,28 +346,16 @@ a.button,
   .pane-title {
     text-align: center;
     color: $green;
-    margin: 130px 0 50px 0;
+    margin: 60px 0 50px 0;
   }
 
   .details-txt {
     font-size: 15px;
     color: #2a2927;
-    width: 515px;
+    width: auto;
     text-align: center;
     margin: 0 auto;
     line-height: 30px;
-  }
-
-  .product-img {
-    display: block;
-    position: absolute;
-    right: 0;
-    background: url("../images/product-img-2.png") no-repeat;
-    width: 503px;
-    height: 529px;
-    bottom: -60px;
-    background-size: cover;
-    z-index: 10;
   }
 }
 
@@ -330,10 +380,10 @@ a.button,
   }
 
   .pane-title {
-    font-size: 36px;
+    font-size: 20px;
     color: $yellow_light;
 
-    padding-top: 90px;
+    padding-top: 60px;
     margin-bottom: 23px;
     text-align: center;
   }
@@ -341,7 +391,7 @@ a.button,
   .details-txt {
     font-size: 15px;
     color: $white;
-    width: 515px;
+    width: auto;
     text-align: center;
     margin: 0 auto;
     line-height: 30px;
@@ -360,8 +410,7 @@ a.button,
 
     .item {
       display: block;
-      max-width: 250px;
-      min-width: 220px;
+      width: 100%;
       height: 517px;
       background: $yellow;
       float: left;
@@ -406,14 +455,18 @@ a.button,
 .region-footer {
   display: block;
   width: 100%;
-  height: 90px;
+  height: 170px;
   background: $black_light;
 
   ul.menu {
+    display: block;
     margin-top: 30px;
+
+    li {
+      display: block;
+    }
   }
 }
-
 
 
 
@@ -424,11 +477,10 @@ a.button,
   display: block;
   color: $white;
   margin: 20px 12px;
-  //top: -160px;
 
   .systemen {
     display: block;
-    height: 410px;
+    min-height: 600px;
     padding: 70px 10px 0 10px;
     margin: 20px 0;
 
@@ -443,19 +495,19 @@ a.button,
     }
 
     .product-img {
-      float: left;
-      width: 50%;
+      width: 100%;
       text-align: center;
     }
 
     .prod-title {
       font-size: 36px;
       line-height: 36px;
+      margin-top: 25px;
     }
 
     .product-text {
-      float: left;
-      width: 50%;
+      width: 100%;
+      text-align: center;
 
       .product-txt {
         font-size: 15px;
@@ -474,8 +526,7 @@ a.button,
         margin-top: 40px;
 
         .btn-more {
-          width: 50%;
-          float: left;
+          width: 100%;
         }
 
         .product-details-info {
@@ -493,10 +544,9 @@ a.button,
 }
 
 .systemen-footer-section-1 {
-  width: 50%;
-  display: inline-block;
-  float: left;
-  padding: 56px 0 24px 151px;
+  width: 100%;
+  display: block;
+  padding: 56px 0 24px 5px;
 
   .title {
     margin-bottom: 10px;
@@ -504,8 +554,9 @@ a.button,
 }
 
 .systemen-footer-section-2 {
-  padding: 56px 0 24px 108px;
-  display: inline-block;
+  width: 100%;
+  display: block;
+  padding: 0 0 24px 5px;
 
   .title {
     margin-bottom: 10px;
@@ -527,7 +578,7 @@ a.button,
   .tabs-items {
     position: relative;
     top: 73px;
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
 
     .item {
@@ -537,14 +588,13 @@ a.button,
       background-color: $white;
 
       text-align: center;
-      width: 270px;
+      width: 50%;
       height: 90px;
 
       a {
-        font-size: 18px;
+        font-size: 14px;
         color: $black_light;
         display: block;
-        width: 270px;
         height: 90px;
         line-height: 90px;
 
@@ -560,7 +610,7 @@ a.button,
 }
 
 .assortiment-details {
-  margin-top: 70px;
+  margin-top: 90px;
 
   .pane-title {
     color: $green_light;
@@ -569,7 +619,7 @@ a.button,
   }
 
   .block-content {
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -587,13 +637,17 @@ a.button,
 
   .block-title,
   .view {
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
   }
 
   table {
     border: none;
     table-layout: fixed;
+
+    thead {
+      display: none;
+    }
 
     th:first-child,
     th:nth-child(2),
@@ -648,7 +702,7 @@ a.button,
         }
 
         .product-assortiment-link {
-          font-size: 15px;
+          font-size: 12px;
           color: $green_light;
           text-decoration: underline;
 
@@ -657,12 +711,13 @@ a.button,
         .sm-title {
           margin-bottom: 10px;
           padding-top: 32px;
-          line-height: 32px;
+          font-size: 13px;
+          line-height: 16px;
         }
 
         .form-placeholder {
           input {
-            width: 58px;
+            width: 30px;
             height: 34px;
             text-align: center;
           }
@@ -688,11 +743,11 @@ a.button,
           }
 
           .minus {
-            margin-right: 20px;
+            margin-right: 10px;
           }
 
           .plus {
-            margin-left: 20px;
+            margin-left: 10px;
 
             &:after {
               content: '';
@@ -721,38 +776,55 @@ a.button,
 
 .systemen-details {
   .block {
+
+    .title,
+    .details-txt {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
     &.blue {
       background-color: $blue_bg;
       color: $white;
     }
 
     .cell {
-      max-width: 250px;
       display: block;
-      float: left;
-      margin-right: 100px;
+      padding: 0 10px;
 
       .title {
         padding-bottom: 30px;
+      }
+
+      &.cell-2,
+      &.cell-3 {
+        padding-top: 40px;
       }
     }
   }
 
   .block-1 {
     .title {
-      padding: 170px 0 75px 0;
+      text-align: center;
+      padding: 70px 10px 75px 10px;
     }
 
     .details-txt {
-      padding: 0 0 70px 0;
-      max-width: 730px;
+      text-align: center;
+      padding: 0 10px 70px 10px;
     }
   }
   .block-2 {
     .details-txt {
-      padding: 75px 0 70px 0;
-      max-width: 380px;
+      padding: 25px 10px 25px 10px;
       line-height: 30px;
+    }
+  }
+
+  .block-5 {
+    .title {
+      line-height: 38px;
+      text-align: center;
     }
   }
 }
@@ -767,7 +839,7 @@ a.button,
 
 
 .assortiment-total-price {
-  width: 1080px;
+  width: 100%;
   margin: 60px auto 0;
 
   .pane-title {
@@ -781,12 +853,10 @@ a.button,
   tr,
   td {
     border: none;
-    width: 640px;
     color: $grey_light;
   }
 
   table {
-    width: 640px;
     display: inline-block;
 
     tr {
@@ -797,24 +867,15 @@ a.button,
     }
   }
 
-  .total-wrapper {
-    width: 300px;
-    float: right;
-  }
 
   .bottom-wrapper {
     color: $black_light;
-    padding: 130px 0 170px 0;
+    padding: 30px 0 70px 0;
 
     .details-text {
-      width: 640px;
-      float: left;
       display: block;
+      padding: 0 10px 20px 10px;
     }
 
-    .button.btn-more {
-      text-align: right;
-      padding-right: 120px;
-    }
   }
 }
