@@ -140,7 +140,7 @@ a.button,
         left: 31px;
         width: 196px;
         height: 124px;
-        background: url('../images/logo.png') no-repeat;
+        //background: url('../images/logo.png') no-repeat;
     }
 
     .main-menu {
@@ -355,6 +355,10 @@ a.button,
             margin-right: 20px;
             padding-top: 38px;
             text-align: center;
+
+            &:last-child {
+                margin-right: 0;
+            }
 
             .details-txt {
                 width: auto;
@@ -812,6 +816,65 @@ a.button,
         bottom: 60px;
     }
 
+}
+
+@media (min-width: 1380px) {
+    .region-header .header-details,
+    .region-header .logo,
+    .top-menu,
+    .main-menu-list,
+    .region-footer .panels-flexible-region-inside-first,
+    .desc-section,
+    .home-items,
+    .systemen-overview .item {
+        max-width: 1360px;
+        margin: 0 auto;
+    }
+
+    .region-header .logo {
+        left: 0;
+
+        img {
+            margin-left: 11px;
+        }
+    }
+
+    .region-header .header-details {
+        max-width: 1320px;
+    }
+
+    .region-header .logo {
+        width: auto;
+    }
+
+    .systemen .region-header {
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    .region-top-header ul.menu li {
+        padding: 0;
+    }
+
+    .region-header .main-menu.main-menu-list {
+        position: relative;
+        top: -100px;
+        right: 0;
+
+        ul.menu {
+            float: right;
+        }
+    }
+
+    .desc-section-more .product-items .item {
+        max-width: 250px;
+        min-width: 250px;
+        margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 }
 
 @media (max-width: 1278px) {
