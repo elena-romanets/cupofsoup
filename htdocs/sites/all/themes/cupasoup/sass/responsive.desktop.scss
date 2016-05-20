@@ -323,6 +323,10 @@ a.button,
         line-height: 30px;
     }
 
+    .home-items .product-img {
+        height: 220px;
+    }
+
     .product-items {
         position: relative;
         display: flex;
@@ -336,7 +340,7 @@ a.button,
 
         .item {
             display: block;
-            max-width: 250px;
+            max-width: 230px;
             min-width: 220px;
             height: 517px;
             background: $yellow;
@@ -837,7 +841,7 @@ a.button,
         float: right;
 
         img {
-            top: 70px;
+            top: 50px;
             position: relative;
         }
     }
