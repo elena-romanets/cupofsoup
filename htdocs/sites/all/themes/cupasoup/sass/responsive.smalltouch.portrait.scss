@@ -289,7 +289,8 @@ a.button,
       p {
         max-width: 300px;
         margin: 35px auto 20px;
-        padding-left: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
       }
     }
 
@@ -616,9 +617,14 @@ a.button,
 .assortiment-details {
   margin-top: 90px;
 
+  .text {
+    padding: 0 10px;
+  }
+
   .pane-title {
     color: $green_light;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 6px;
   }
 
@@ -636,7 +642,8 @@ a.button,
   }
 
   .block-title {
-    font-size: 36px;
+    font-size: 26px;
+    text-align: center;
   }
 
   .block-title,
@@ -657,7 +664,7 @@ a.button,
     th:nth-child(2),
     th:nth-child(3),
     .prod-link {
-      text-align: left;
+      text-align: center;
     }
 
     th {
@@ -702,7 +709,7 @@ a.button,
 
         .product-assortiment-image {
           float: left;
-          margin: 0 38px 0 -1px;
+          margin: 0 0 0 5px;
         }
 
         .product-assortiment-link {
@@ -731,8 +738,8 @@ a.button,
             cursor: pointer;
             display: inline-block;
             position: relative;
-            width: 16px;
-            height: 16px;
+            width: 14px;
+            height: 14px;
             text-indent: -99999px;
 
             &:before {
@@ -741,17 +748,17 @@ a.button,
               width: 100%;
               height: 2px;
               position: absolute;
-              top: 12px;
+              top: 11px;
               background: $green;
             }
           }
 
           .minus {
-            margin-right: 10px;
+            margin-right: 2px;
           }
 
           .plus {
-            margin-left: 10px;
+            margin-left: 2px;
 
             &:after {
               content: '';
@@ -759,7 +766,7 @@ a.button,
               width: 2px;
               height: 100%;
               position: absolute;
-              left: 7px;
+              left: 6px;
               top: 5px;
               background: $green;
             }
@@ -846,9 +853,17 @@ a.button,
   width: 100%;
   margin: 60px auto 0;
 
+  .block-inner {
+    padding: 0 10px;
+  }
+
   .pane-title {
     font-size: 17px;
     margin-bottom: 27px;
+  }
+
+  .total-wrapper.title {
+    font-size: 26px;
   }
 
   table,
@@ -878,16 +893,16 @@ a.button,
 
     .details-text {
       display: block;
-      padding: 0 10px 20px 10px;
+      padding: 0 10px 20px 0;
     }
 
   }
 }
 
-.product-items {
+.page-home .product-items {
   display: none!important;
 }
 
-.product-items-owl {
+.page-home .product-items-owl {
   display: block!important;
 }
