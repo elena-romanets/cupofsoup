@@ -39,50 +39,59 @@
   background-image: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\000037}}
+.page-service form {
+  width: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000311}}
 .page-service .panel-separator {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000315}}
 .page-service .service-content {
   margin: 0 auto;
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000319}}
 .page-service .service-content label {
   font-size: 15px;
   font-weight: 400;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000324}}
 .page-service .service-content input,
 .page-service .service-content select {
   border: 1px solid #2a2927;
   padding: 5px 20px;
   font-size: 15px;
   height: 52px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000328}}
-.page-service .service-content .address input,
-.page-service .service-content .postcode input {
-  width: 300px;
+  max-width: 250px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000333}}
+.page-service .service-content .webform-container-inline.address label {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000337}}
+.page-service .service-content .address input,
+.page-service .service-content .postcode input {
+  width: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000342}}
 .page-service .service-content .address-number input {
-  width: 100px;
+  width: 50px;
   float: right;
   position: relative;
-  top: -106px;
-  right: 165px;
+  top: -84px;
+  right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000350}}
 .page-service .service-content .webform-container-inline label {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000356}}
 .page-service .service-content .form-type-radio input,
 .page-service .service-content .form-type-checkbox input {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000360}}
 .page-service .service-content .form-type-radio .radio-button,
 .page-service .service-content .form-type-radio .checkbox-button,
 .page-service .service-content .form-type-checkbox .radio-button,
@@ -97,47 +106,47 @@
   position: relative;
   top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000372}}
 .page-service .service-content .form-type-radio .radio-button.active,
 .page-service .service-content .form-type-radio .checkbox-button.active,
 .page-service .service-content .form-type-checkbox .radio-button.active,
 .page-service .service-content .form-type-checkbox .checkbox-button.active {
   background-image: url("../images/radio-active-black-btn.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000377}}
 .page-service .service-content .form-type-radio .checkbox-button,
 .page-service .service-content .form-type-checkbox .checkbox-button {
   background-image: url("../images/checkbox-btn.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000380}}
 .page-service .service-content .form-type-radio .checkbox-button.active,
 .page-service .service-content .form-type-checkbox .checkbox-button.active {
   background-image: url("../images/checkbox-active-btn.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000380}}
-.page-service .service-content .form-item, .page-service .service-content .form-actions {
-  margin: 0;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000386}}
+.page-service .service-content .form-item, .page-service .service-content .form-actions {
+  margin: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000392}}
 .page-service .service-content .supplier-options label,
 .page-service .service-content .webform-component-checkboxes label {
   margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000397}}
 .page-service .service-content .pane-title {
   padding-bottom: 20px;
   line-height: 73px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\00003102}}
 .page-service .service-content .text-details {
   font-size: 15px;
   line-height: 24px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.mob\.desktop\.scss}line{font-family:\00003108}}
 .page-service .service-content .section-title {
-  padding-top: 26px;
-  padding-bottom: 36px;
+  padding-top: 5px;
+  padding-bottom: 15px;
   font-size: 18px;
   font-weight: bold;
 }

@@ -4,6 +4,10 @@
         background-image: none;
     }
 
+    form {
+        width: 300px;
+    }
+
     .panel-separator {
         display: none;
     }
@@ -23,26 +27,28 @@
             padding: 5px 20px;
             font-size: 15px;
             height: 52px;
+            max-width: 250px;
+        }
+
+        .webform-container-inline.address label {
+            display: block;
         }
 
         .address input,
         .postcode input {
-            width: 300px;
+            width: 150px;
         }
 
         .address-number input {
-            width: 100px;
+            width: 50px;
             float: right;
             position: relative;
-            top: -106px;
-            right: 165px;
+            top: -84px;
+            right: 5px;
         }
 
         .webform-container-inline label {
             display: inline-block;
-            //width: 150px;
-            //margin-right: 120px;
-            //margin-left: 20px;
         }
 
         .form-type-radio,
@@ -78,7 +84,7 @@
         }
 
         .form-item, .form-actions {
-            margin: 0;
+            margin: 20px 0;
         }
 
         .supplier-options,
@@ -96,12 +102,12 @@
         .text-details {
             font-size: 15px;
             line-height: 24px;
-            padding-bottom: 50px;
+            padding-bottom: 10px;
         }
 
         .section-title {
-            padding-top: 26px;
-            padding-bottom: 36px;
+            padding-top: 5px;
+            padding-bottom: 15px;
             font-size: 18px;
             font-weight: bold;
         }
