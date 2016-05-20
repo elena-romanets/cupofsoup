@@ -15,6 +15,7 @@
   stylesheets[screen][] = css/global.base.css
   stylesheets[screen][] = css/global.styles.css
   stylesheets[screen][] = css/owl.carousel.css
+  stylesheets[screen][] = css/owl.theme.default.min.css
 
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
@@ -471,6 +472,7 @@
   ; Custom JS
   settings[custom_css] = ''
   scripts[] = scripts/main.js
+  scripts[] = scripts/owl.carousel.min.js
 
 ; Information added by Drupal.org packaging script on 2014-03-23
 version = "7.x-3.2"

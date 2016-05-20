@@ -1,6 +1,14 @@
 (function ($) {
   $('document').ready(function () {
 
+
+    $('.product-items-owl .view-content').owlCarousel({
+      items: 1,
+      loop:true
+    });
+
+
+
     var $formPlaceholder = $('.form-placeholder');
     var $table;
     var $tableLastRow;
