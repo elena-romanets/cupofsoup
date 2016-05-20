@@ -344,9 +344,11 @@ a.button,
   padding-top: 135px;
 
   .pane-title {
+    font-size: 30px;
+    line-height: 35px;
     text-align: center;
     color: $green;
-    margin: 60px 0 50px 0;
+    margin: 10px 0 30px 0;
   }
 
   .details-txt {
@@ -355,6 +357,7 @@ a.button,
     width: auto;
     text-align: center;
     margin: 0 auto;
+    padding: 0 10px;
     line-height: 30px;
   }
 }
@@ -394,7 +397,7 @@ a.button,
     width: auto;
     text-align: center;
     margin: 0 auto;
-    line-height: 30px;
+    line-height: 25px;
   }
 
   .product-items {
@@ -417,6 +420,10 @@ a.button,
       margin-right: 20px;
       padding-top: 38px;
       text-align: center;
+
+      .product-img {
+        height: 200px;
+      }
 
       .details-txt {
         width: auto;
@@ -467,9 +474,6 @@ a.button,
     }
   }
 }
-
-
-
 
 // Systemen overview page
 
