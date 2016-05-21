@@ -825,8 +825,7 @@ a.button,
     .main-menu-list,
     .region-footer .panels-flexible-region-inside-first,
     .desc-section,
-    .home-items,
-    .systemen-overview .item {
+    .home-items {
         max-width: 1360px;
         margin: 0 auto;
     }
@@ -847,9 +846,14 @@ a.button,
         width: auto;
     }
 
-    .systemen .region-header {
+    .systemen .region-header,
+    .assortiment .region-header {
         height: auto;
         padding-bottom: 80px;
+    }
+
+    .assortiment .region-header {
+        padding-bottom: 72px;
     }
 
     .region-top-header ul.menu li {
