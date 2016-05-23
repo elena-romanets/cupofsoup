@@ -1027,8 +1027,8 @@ a.button:after,
 .assortiment-block table tbody tr .sm-title {
   margin-bottom: 10px;
   padding-top: 32px;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 17px;
+  line-height: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\00003800}}
 .assortiment-block table tbody tr .form-placeholder input {

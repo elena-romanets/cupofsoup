@@ -177,12 +177,15 @@
 
     // assortiment popups
     $('.product-assortiment-link').bind('click',function() {
+      $('body').prepend('<div class="body-overlay show"></div>');
+
       $('.product-assortiment-popup').removeClass('show');
       $(this).parent('div').children('.product-assortiment-popup').toggleClass('show');
     });
 
     $('.close-btn').bind('click',function() {
       $(this).parent('div').toggleClass('show');
+      $('.body-overlay').removeClass('show');
     });
 
 
