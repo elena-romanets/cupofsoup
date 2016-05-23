@@ -569,7 +569,7 @@ a.button:after,
   background: url("../images/assoriment-prod.png") no-repeat;
   background-size: contain;
   background-position: 50% 0;
-  height: 212px;
+  height: 200px;
   bottom: 0;
   float: right;
 }
@@ -578,7 +578,7 @@ a.button:after,
   background: url("../images/systemen.png") no-repeat;
   background-size: contain;
   background-position: 50% 0;
-  height: 269px;
+  height: 200px;
   bottom: 0;
   float: right;
 }
@@ -1144,7 +1144,7 @@ a.button:after,
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\00003917}}
 .systemen .region-header {
-  height: 659px;
+  height: 484px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\00003925}}

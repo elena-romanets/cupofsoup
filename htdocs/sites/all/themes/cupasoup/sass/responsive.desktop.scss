@@ -406,17 +406,16 @@ a.button,
     }
 }
 
-
-
-
-
 // Systemen overview page
+.systemen .region-header {
+    height: 484px;
+}
 
 .systemen-overview {
     display: block;
     color: $white;
     margin: 20px 12px;
-    //top: -160px;
+    padding-top: 100px;
 
     .systemen {
         display: block;
@@ -832,7 +831,7 @@ a.button,
 .systemen {
 
     .region-header {
-        height: 659px;
+        height: 484px;
     }
 }
 
@@ -879,6 +878,23 @@ a.button,
 
     .region-header {
         height: 769px;
+    }
+}
+
+.assortiment .button a {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(grayscale.svg);
+    filter: gray;
+    pointer-events: none;
+
+    &.active {
+        filter: none;
+        -webkit-filter: grayscale(0%);
+        pointer-events: auto;
     }
 }
 
@@ -974,7 +990,7 @@ a.button,
 
     .systemen .region-header,
     .assortiment .region-header {
-        height: auto;
+        height: 484px;
         padding-bottom: 80px;
     }
 

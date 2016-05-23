@@ -18,6 +18,9 @@
     var $formPlaceholder = $('.form-placeholder');
     var $table;
     var $tableLastRow;
+    var $res = $('.assortiment-total-price .results').hide();
+    var $emptyRes = $('.assortiment-total-price .empty-result');
+    var $btnActive = $('.assortiment-total-price .bottom-wrapper .button.btn-more a');
 
     $formPlaceholder.each(function () {
       var $el = $(this);
@@ -100,11 +103,11 @@
         .append($tableLastRow);
 
       var $totalPrice = $('.assortiment-total-price .total-wrapper span');
-
+      var full = false;
 
       for (var i in prices) {
         if (prices.hasOwnProperty(i) && prices[i].total) {
-
+          full = true;
           var $tr = $('<tr>')
             .append(
               $('<td>').text(i),
@@ -114,6 +117,17 @@
 
           $tableLastRow.before($tr);
         }
+      }
+
+      if (full) {
+        $btnActive.addClass('active');
+        $res.show();
+        $emptyRes.hide();
+      }
+      else {
+        $btnActive.removeClass('active');
+        $res.hide();
+        $emptyRes.show();
       }
 
       $totalPrice.text(Math.round(totalPrice * 100) / 100);
