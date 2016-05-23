@@ -643,7 +643,58 @@ a.button,
                     font-size: 15px;
                     color: $green_light;
                     text-decoration: underline;
+                    cursor: pointer;
+                }
 
+                .product-assortiment-popup {
+                    .close-btn {
+                        display: block;
+                        content: '';
+                        background: url("../images/close-btn.png") no-repeat;
+                        background-size: contain;
+                        width: 30px;
+                        height: 30px;
+                        cursor: pointer;
+                        float: right;
+                    }
+
+                    &.hide {
+                        display: none;
+                    }
+
+                    &.show {
+                        display: block;
+                        position:absolute;
+                        left:0;
+                        right:0;
+                        margin-left:auto;
+                        margin-right:auto;
+                        background: $grey_light;
+                        max-width: 900px;
+                        padding: 20px;
+                        margin-top: -170px;
+                        z-index: 100;
+
+                        .block {
+                            max-width: 720px;
+
+                            &-1 {
+                                padding-bottom: 30px;
+                                border-bottom: 1px solid $grey_dark;
+                            }
+
+                            .title {
+                                margin-bottom: 10px;
+                                width: 100%;
+                            }
+
+                            .cell {
+                                max-width: 250px;
+                                padding-right: 40px;
+                                float: left;
+                            }
+                        }
+                    }
                 }
 
                 .sm-title {
@@ -699,6 +750,61 @@ a.button,
                     }
                 }
             }
+        }
+    }
+}
+
+.product-order-header,
+.product-order-radio-btns {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.product-order-radio-btns {
+
+    margin-bottom: 40px;
+
+    input[name="product-option"] {
+        display: none;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .field-item {
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 10px;
+    }
+
+    .field-name-field-title,
+    .field-name-field-description {
+        display: block;
+        float: left;
+    }
+
+    .field-name-field-title {
+        width: 50%;
+    }
+
+    .field-name-field-description {
+        margin-right: 10px;
+    }
+
+    .radio-button {
+        width: 32px;
+        height: 32px;
+        background-image: url("../images/radio-btn.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        float: left;
+        cursor: pointer;
+        position: relative;
+        top: 10px;
+        margin-right: 20px;
+
+        &.active {
+            background-image: url("../images/radio-active-black-btn.png");
         }
     }
 }
@@ -947,7 +1053,9 @@ a.button,
     .systemen-details .block-4,
     .systemen-details .block-5,
     .systemen-details .system-video,
-    #youtube-field-player {
+    #youtube-field-player,
+    .product-order-header,
+    .product-order-radio-btns {
         width: 90%;
     }
 

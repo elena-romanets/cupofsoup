@@ -717,7 +717,76 @@ a.button,
           font-size: 12px;
           color: $green_light;
           text-decoration: underline;
+          cursor: pointer;
+        }
 
+        .product-assortiment-popup {
+          .close-btn {
+            display: block;
+            content: '';
+            background: url("../images/close-btn.png") no-repeat;
+            background-size: contain;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            float: right;
+            position: relative;
+            top: 10px;
+            right: 10px;
+          }
+
+          &.hide {
+            display: none;
+          }
+
+          &.show {
+            display: block;
+            position:absolute;
+            left:0;
+            right:0;
+            margin-left:auto;
+            margin-right:auto;
+            background: $grey_light;
+            width: 100%;
+            margin-top: -170px;
+            z-index: 100;
+
+            p {
+              text-align: left;
+              padding: 0 10px;
+            }
+
+            .block {
+              padding: 20px 0 20px 10px;
+              text-align: left;
+              width: 90%;
+
+              &-1 {
+                padding-bottom: 30px;
+                border-bottom: 1px solid $grey_dark;
+              }
+
+              .title {
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: left;
+              }
+
+              .details-txt, p {
+                text-align: left;
+                padding: 0 10px;
+              }
+
+              .cell {
+                width: 100%;
+
+                .title {
+                  text-align: left;
+                }
+
+              }
+            }
+          }
         }
 
         .sm-title {
@@ -774,6 +843,70 @@ a.button,
           }
         }
       }
+    }
+  }
+}
+
+.product-order-header,
+.product-order-radio-btns {
+  width: 100%;
+}
+
+.product-order-header .field-item {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.product-order-radio-btns {
+
+  margin-bottom: 40px;
+
+  input[name="product-option"] {
+    display: none;
+    float: left;
+    margin-right: 20px;
+  }
+
+  .field-items {
+    padding: 0 10px;
+  }
+
+  .field-item {
+    font-size: 15px;
+    line-height: 30px;
+    padding-top: 10px;
+
+  }
+
+  .field-name-field-title,
+  .field-name-field-description {
+    display: block;
+    float: left;
+  }
+
+  .field-name-field-title {
+    width: 50%;
+  }
+
+  .field-name-field-description {
+    margin-right: 10px;
+  }
+
+  .radio-button {
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/radio-btn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    margin-right: 20px;
+
+    &.active {
+      background-image: url("../images/radio-active-black-btn.png");
     }
   }
 }

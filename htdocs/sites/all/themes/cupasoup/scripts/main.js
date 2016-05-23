@@ -126,27 +126,29 @@
 
     //  Form fields
 
-    $('.form-type-radio').prepend('<span class="radio-button"></span>');
+    $('.form-type-radio, .product-order-radio-btns .field-name-field-title').prepend('<span class="radio-button"></span>');
 
-    $('.form-type-radio input').each(function() {
+    $('.form-type-radio input, .product-order-radio-btns .field-name-field-title input').each(function() {
       if ($(this).is(':checked')) {
         $('.form-type-radio .radio-button').removeClass('active');
         $(this).parent('div').children('.radio-button').addClass('active');
       }
     });
 
-    $('.form-type-radio input').bind('change',function() {
+    $('.form-type-radio input, .product-order-radio-btns .field-name-field-title input').bind('change',function() {
       if ($(this).is(':checked')) {
         $('.form-type-radio .radio-button').removeClass('active');
         $(this).parent('div').children('.radio-button').addClass('active');
       }
     });
 
-    $('.form-type-radio .radio-button').bind('click',function() {
+    $('.form-type-radio .radio-button, .product-order-radio-btns .field-name-field-title .radio-button').bind('click',function() {
       $('.form-type-radio input').attr('checked','');
+      $('.product-order-radio-btns .field-name-field-title input').attr('checked','');
       $(this).parent('div').children('input').attr('checked','checked');
 
       $('.form-type-radio .radio-button').removeClass('active');
+      $('.product-order-radio-btns .field-name-field-title .radio-button').removeClass('active');
       $(this).parent('div').children('.radio-button').addClass('active');
     });
 
@@ -168,9 +170,19 @@
     $('.mob-menu .block-content').append('<span class="menuIcon"><span></span></span>');
 
     // init menu
-    $('.mob-menu .menuIcon').on('click', function(){
+    $('.mob-menu .menuIcon').bind('click', function(){
       $('.mob-menu ul').toggleClass('show');
       $(this).toggleClass("close");
+    });
+
+    // assortiment popups
+    $('.product-assortiment-link').bind('click',function() {
+      $('.product-assortiment-popup').removeClass('show');
+      $(this).parent('div').children('.product-assortiment-popup').toggleClass('show');
+    });
+
+    $('.close-btn').bind('click',function() {
+      $(this).parent('div').toggleClass('show');
     });
 
 
