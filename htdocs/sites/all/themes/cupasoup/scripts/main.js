@@ -187,9 +187,6 @@
       $(this).parent('div').toggleClass('show');
       $('.body-overlay').removeClass('show');
     });
-
-
-
   });
 
 
