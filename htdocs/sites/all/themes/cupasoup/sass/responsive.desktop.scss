@@ -2,8 +2,9 @@
 // _base.scss imports _custom.scss and other partials.
 @import "base";
 
-// import service page styles
+// import pages styles
 @import "pages/service.desktop";
+@import "pages/faq.desktop";
 
 .mob-menu {
     display: none;

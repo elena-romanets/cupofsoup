@@ -7,6 +7,12 @@
       loop:true
     });
 
+    $('.field-name-field-title').each(function() {
+
+      var $inp = $('<input type="radio" name="product-option"/>');
+      $inp.val($(this).parent().find('.field-name-field-value .field-item').text());
+      $(this).prepend($inp)
+    });
 
 
     var $formPlaceholder = $('.form-placeholder');
