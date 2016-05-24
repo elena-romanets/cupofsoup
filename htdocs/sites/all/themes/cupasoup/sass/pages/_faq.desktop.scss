@@ -1,4 +1,40 @@
 body.faq {
+
+    .faq-question {
+        cursor: pointer;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 23px;
+            height: 13px;
+            right: 0;
+            background: url("../images/arrow_down.png") no-repeat;
+        }
+
+        &.open:after {
+            -ms-transform: rotate(180deg); /* IE 9 */
+            -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+            transform: rotate(180deg)
+        }
+    }
+
+    .faq-answer {
+        display: none;
+        margin-top: 25px;
+        padding-top: 25px;
+        border-top: 1px solid #ccc;
+
+        p {
+            margin: 0;
+            text-align: justify;
+        }
+    }
+
+    .faq-row {
+        position: relative;
+    }
+
     .region-header {
         background-image: none;
         height: auto;

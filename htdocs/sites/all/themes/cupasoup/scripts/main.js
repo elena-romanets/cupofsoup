@@ -1,6 +1,12 @@
 (function ($) {
   $('document').ready(function () {
 
+    $('.faq-question').click(function() {
+      $(this)
+        .toggleClass('open')
+        .parent().find('.faq-answer').slideToggle('fast');
+    });
+
 
     $('.product-items-owl .view-content').owlCarousel({
       items: 1,
