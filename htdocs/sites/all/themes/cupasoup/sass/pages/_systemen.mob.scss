@@ -1,0 +1,227 @@
+.product-order-header,
+.product-order-radio-btns {
+    width: 100%;
+}
+
+.product-order-header .field-item {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.product-order-radio-btns {
+
+    margin-bottom: 40px;
+
+    input[name="product-option"] {
+        display: none;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .field-items {
+        padding: 0 10px;
+    }
+
+    .field-item {
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 10px;
+
+    }
+
+    .field-name-field-title,
+    .field-name-field-description {
+        display: block;
+        float: left;
+    }
+
+    .field-name-field-title {
+        width: 50%;
+    }
+
+    .field-name-field-description {
+        margin-right: 10px;
+    }
+
+    .radio-button {
+        width: 32px;
+        height: 32px;
+        background-image: url("../images/radio-btn.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        float: left;
+        cursor: pointer;
+        position: relative;
+        top: 10px;
+        margin-right: 20px;
+
+        &.active {
+            background-image: url("../images/radio-active-black-btn.png");
+        }
+    }
+}
+
+// Systemen details page
+.systemen {
+
+    .region-header {
+        height: 484px;
+    }
+}
+
+.systemen-details {
+    .block {
+
+        .title,
+        .details-txt {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        &.blue {
+            background-color: $blue_bg;
+            color: $white;
+        }
+
+        .cell {
+            display: block;
+            padding: 0 10px;
+
+            .title {
+                padding-bottom: 30px;
+            }
+
+            &.cell-2,
+            &.cell-3 {
+                padding-top: 40px;
+            }
+        }
+    }
+
+    .block-1 {
+        .title {
+            text-align: center;
+            padding: 70px 10px 75px 10px;
+        }
+
+        .details-txt {
+            text-align: center;
+            padding: 0 10px 70px 10px;
+        }
+    }
+    .block-2 {
+        .details-txt {
+            padding: 25px 10px 25px 10px;
+            line-height: 30px;
+        }
+    }
+
+    .block-5 {
+        .title {
+            line-height: 38px;
+            text-align: center;
+        }
+    }
+}
+
+
+// Systemen overview page
+
+.systemen-overview {
+    display: block;
+    color: $white;
+    margin: 20px 12px;
+
+    .systemen {
+        display: block;
+        min-height: 600px;
+        padding: 70px 10px 0 10px;
+        margin: 20px 0;
+
+        &.red {
+            background-color: $red;
+        }
+        &.blue {
+            background-color: $blue_light;
+        }
+        &.green {
+            background-color: $green_light;
+        }
+
+        .product-img {
+            width: 100%;
+            text-align: center;
+        }
+
+        .prod-title {
+            font-size: 36px;
+            line-height: 36px;
+            margin-top: 25px;
+        }
+
+        .product-text {
+            width: 100%;
+            text-align: center;
+
+            .product-txt {
+                font-size: 15px;
+                line-height: 30px;
+
+                .bold {
+                    font-weight: 700;
+                }
+            }
+
+            .product-details-desc {
+                color: $black_light;
+            }
+
+            .product-links {
+                margin-top: 40px;
+
+                .btn-more {
+                    width: 100%;
+                }
+
+                .product-details-info {
+                    padding: 12px 0 0 0;
+                    color: $white;
+                    text-decoration: underline;
+
+                    a {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.systemen-footer-section-1 {
+    width: 100%;
+    display: block;
+    padding: 56px 0 24px 5px;
+
+    .title {
+        margin-bottom: 10px;
+    }
+}
+
+.systemen-footer-section-2 {
+    width: 100%;
+    display: block;
+    padding: 0 0 24px 5px;
+
+    .title {
+        margin-bottom: 10px;
+    }
+
+    .description {
+        margin: 25px 0;
+    }
+}
+
+.systemen-footer {
+    margin-bottom: 45px;
+}

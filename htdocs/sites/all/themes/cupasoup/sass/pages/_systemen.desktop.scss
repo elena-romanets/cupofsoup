@@ -1,0 +1,101 @@
+// Systemen product header details
+.product-order-header,
+.product-order-radio-btns {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.product-order-radio-btns {
+
+    margin-bottom: 40px;
+
+    input[name="product-option"] {
+        display: none;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .field-item {
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 10px;
+    }
+
+    .field-name-field-title,
+    .field-name-field-description {
+        display: block;
+        float: left;
+    }
+
+    .field-name-field-title {
+        width: 50%;
+    }
+
+    .field-name-field-description {
+        margin-right: 10px;
+    }
+
+    .radio-button {
+        width: 32px;
+        height: 32px;
+        background-image: url("../images/radio-btn.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        float: left;
+        cursor: pointer;
+        position: relative;
+        top: 10px;
+        margin-right: 20px;
+
+        &.active {
+            background-image: url("../images/radio-active-black-btn.png");
+        }
+    }
+}
+
+// Systemen details page
+.systemen {
+
+    .region-header {
+        height: 484px;
+    }
+}
+
+.systemen-details {
+    .block {
+        &.blue {
+            background-color: $blue_bg;
+            color: $white;
+        }
+
+        .cell {
+            max-width: 250px;
+            display: block;
+            float: left;
+            margin-right: 100px;
+
+            .title {
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .block-1 {
+        .title {
+            padding: 170px 0 75px 0;
+        }
+
+        .details-txt {
+            padding: 0 0 70px 0;
+            max-width: 730px;
+        }
+    }
+    .block-2 {
+        .details-txt {
+            padding: 75px 0 70px 0;
+            max-width: 380px;
+            line-height: 30px;
+        }
+    }
+}
