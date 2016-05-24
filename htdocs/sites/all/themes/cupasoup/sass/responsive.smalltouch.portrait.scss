@@ -983,6 +983,24 @@ a.button,
 }
 
 
+.assortiment-total-price .button a {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(grayscale.svg);
+  filter: gray;
+  pointer-events: none;
+
+  &.active {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    pointer-events: auto;
+  }
+}
+
+
 .assortiment-total-price {
   width: 100%;
   margin: 60px auto 0;
