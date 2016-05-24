@@ -1220,35 +1220,41 @@ a.button:after,
 .assortiment-total-price thead,
 .assortiment-total-price tbody,
 .assortiment-total-price tr,
-.assortiment-total-price td {
+.assortiment-total-price td,
+.assortiment-total-price .empty-result {
   border: none;
+  font-size: 16px;
   color: #b7b7b6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031012}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031014}}
 .assortiment-total-price table {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031017}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031019}}
 .assortiment-total-price table tr:last-child {
   line-height: 55px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031024}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031025}}
+.assortiment-total-price .empty-result {
+  padding-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031029}}
 .assortiment-total-price .bottom-wrapper {
   color: #2a2927;
   padding: 30px 0 70px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031028}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031033}}
 .assortiment-total-price .bottom-wrapper .details-text {
   display: block;
   padding: 0 10px 20px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031041}}
 .page-home .product-items {
   display: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031040}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\000031045}}
 .page-home .product-items-owl {
   display: block !important;
 }

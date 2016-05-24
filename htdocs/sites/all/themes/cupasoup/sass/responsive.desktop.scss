@@ -141,7 +141,11 @@ a.button,
         left: 31px;
         width: 196px;
         height: 124px;
-        //background: url('../images/logo.png') no-repeat;
+
+        img {
+            position: relative;
+            z-index: 100;
+        }
     }
 
     .main-menu {
@@ -912,10 +916,15 @@ a.button,
     thead,
     tbody,
     tr,
-    td {
+    td,
+    .empty-result {
         border: none;
         width: 640px;
         color: $grey_light;
+    }
+
+    .empty-result {
+        display: inline-block;
     }
 
     table {
@@ -988,9 +997,13 @@ a.button,
         width: auto;
     }
 
-    .systemen .region-header,
-    .assortiment .region-header {
+    .systemen .region-header {
         height: 484px;
+        padding-bottom: 80px;
+    }
+
+    .assortiment .region-header {
+        height: auto;
         padding-bottom: 80px;
     }
 
@@ -1118,7 +1131,8 @@ a.button,
 
     .assortiment-total-price table,
     .assortiment-total-price td,
-    .assortiment-total-price .bottom-wrapper .details-text {
+    .assortiment-total-price .bottom-wrapper .details-text,
+    .empty-result {
         width: 450px;
     }
 
