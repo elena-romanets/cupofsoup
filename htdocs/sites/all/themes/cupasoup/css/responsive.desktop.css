@@ -1102,7 +1102,7 @@ a.button:after,
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003888}}
-.assortiment .button a {
+.assortiment-total-price .button a {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -1113,7 +1113,7 @@ a.button:after,
   pointer-events: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003898}}
-.assortiment .button a.active {
+.assortiment-total-price .button a.active {
   filter: none;
   -webkit-filter: grayscale(0%);
   pointer-events: auto;
