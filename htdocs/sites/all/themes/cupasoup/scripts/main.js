@@ -21,6 +21,26 @@
     });
 
 
+    var $assortimentLinks = $('.assortiment-menu .assortiment-link');
+    var $assortimentPanes = $('.assortiment-row');
+    $assortimentLinks.first().addClass('active');
+
+    $assortimentLinks.click(function () {
+      $assortimentLinks.removeClass('active');
+
+      var self = this;
+      var $el = $(this);
+      $el.addClass('active');
+
+      $assortimentLinks.each(function (index) {
+        if (self == this) {
+          $assortimentPanes.hide();
+          $assortimentPanes.eq(index).show()
+        }
+      })
+    });
+
+
     var $formPlaceholder = $('.form-placeholder');
     var $table;
     var $tableLastRow;
@@ -68,15 +88,17 @@
 
       $allInputs.each(function () {
         var $el = $(this);
-        var paneTitle = $el.parents('.assortiment-block').find('h2.pane-title').text();
+        var productTitle = $el.parents('.assortiment-block').find('h2.pane-title').text();
 
-        if (paneTitle === 'POPULAIR') {
+        if (productTitle === 'POPULAIR') {
           return;
         }
 
         var val = Number($el.val()) || 0;
         var price = $el.parents('tr').find('.product-assortiment-price-value').data('price');
-        var productTitle = $el.parents('tr').find('.pane-title.sm-title').text();
+        var paneTitle = $el.parents('.assortiment-row').find('.item-title').attr('data-title');
+
+        paneTitle += ' ' + productTitle;
 
         if (!prices[paneTitle]) {
           prices[paneTitle] = { total: 0 };

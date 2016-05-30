@@ -699,7 +699,7 @@ a.button,
         display: none;
     }
     .assortiment-menu .tabs-items .item,
-    .assortiment-menu .tabs-items .item a {
+    .assortiment-menu .tabs-items .item .assortiment-link {
         width: 220px;
     }
 
@@ -745,11 +745,14 @@ a.button,
         padding-left: 20px;
     }
 
-    .assortiment-total-price table,
-    .assortiment-total-price td,
     .assortiment-total-price .bottom-wrapper .details-text,
     .empty-result {
         width: 450px;
+    }
+
+    .assortiment-total-price table,
+    .assortiment-total-price td {
+        width: 750px;
     }
 
     .assortiment-total-price .bottom-wrapper .button.btn-more {

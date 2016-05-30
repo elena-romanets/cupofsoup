@@ -5,6 +5,12 @@
     }
 }
 
+.assortiment-row-2,
+.assortiment-row-3,
+.assortiment-row-4 {
+    display: none;
+}
+
 // Assortiment blocks
 .assortiment-menu {
     .tabs-items {
@@ -23,7 +29,7 @@
             width: 50%;
             height: 90px;
 
-            a {
+            .assortiment-link {
                 font-size: 14px;
                 color: $black_light;
                 display: block;
