@@ -62,6 +62,13 @@
     }
 }
 
+body.systemen-info {
+    .region-header .header-details {
+            position: relative;
+            z-index: 10;
+    }
+}
+
 .systemen-details {
     .block {
         &.blue {
@@ -78,6 +85,19 @@
             .title {
                 padding-bottom: 30px;
             }
+        }
+    }
+
+    .blue-section {
+        position: relative;
+        z-index: 1;
+        top: -150px;
+        margin-bottom: -150px;
+
+        .image {
+            position: absolute;
+            top: 250px;
+            right: 100px;
         }
     }
 

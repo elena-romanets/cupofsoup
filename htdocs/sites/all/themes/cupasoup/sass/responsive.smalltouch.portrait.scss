@@ -339,6 +339,31 @@ a.button,
         height: 200px;
         bottom: 0;
         float: right;
+
+        &.carrousel {
+          background-image: url("../images/header-carrousel.png");
+          top: 50px;
+        }
+
+        &.selectieboxen {
+          background-image: url("../images/selectboxen-product.png");
+          height: 326px;
+        }
+
+        &.mini {
+          background-image: url("../images/mini-product.png");
+          top: 50px;
+        }
+
+        &.tabletop {
+          background-image: url("../images/tabletop-product.png");
+          top: 50px;
+        }
+
+        &.standalones {
+          background-image: url("../images/standalones-product.png");
+          top: 50px;
+        }
       }
     }
   }

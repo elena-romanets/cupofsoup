@@ -193,6 +193,9 @@ a.button,
         height: 590px;
         background: $yellow;
         border: 20px solid $white;
+        -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
         margin: 0 32px;
 
         .block-content {
@@ -246,12 +249,43 @@ a.button,
             }
 
             &.systemen {
-                background: url("../images/systemen.png") no-repeat;
+                background: url("../images/systemen.png");
+                background-repeat: no-repeat;
                 background-size: contain;
                 background-position: 50% 0;
                 height: 269px;
                 bottom: 0;
                 float: right;
+
+                &.carrousel {
+                    background-image: url("../images/header-carrousel.png");
+                    height: 205px;
+                    top: 100px;
+                }
+
+                &.selectieboxen {
+                    background-image: url("../images/selectboxen-product.png");
+                    height: 326px;
+                    top: 50px;
+                }
+
+                &.mini {
+                    background-image: url("../images/mini-product.png");
+                    height: 212px;
+                    top: 100px;
+                }
+
+                &.tabletop {
+                    background-image: url("../images/tabletop-product.png");
+                    height: 214px;
+                    top: 100px;
+                }
+
+                &.standalones {
+                    background-image: url("../images/standalones-product.png");
+                    height: 195px;
+                    top: 100px;
+                }
             }
         }
     }
@@ -609,6 +643,10 @@ a.button,
             margin-right: 0;
         }
     }
+
+    .systemen-details .blue-section .image {
+        right: 250px;
+    }
 }
 
 @media (max-width: 1278px) {
@@ -657,6 +695,9 @@ a.button,
 
 
 @media (max-width: 1150px) {
+    .systemen-details .blue-section .image {
+        display: none;
+    }
     .assortiment-menu .tabs-items .item,
     .assortiment-menu .tabs-items .item a {
         width: 220px;
