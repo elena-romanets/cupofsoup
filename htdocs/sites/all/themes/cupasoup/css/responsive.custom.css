@@ -30,10 +30,20 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003220}}
 .top-100 {
-  top: 100px;
+  margin-top: 100px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003224}}
+.top-110 {
+  margin-top: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003228}}
+.t-100 {
+  top: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003232}}
 .center {
   text-align: center;
 }
