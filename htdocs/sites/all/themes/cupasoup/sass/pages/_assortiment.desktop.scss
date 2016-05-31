@@ -29,7 +29,8 @@
             width: 270px;
             height: 90px;
 
-            .assortiment-link {
+            .assortiment-link,
+            a {
                 font-size: 18px;
                 color: $black_light;
                 display: block;
