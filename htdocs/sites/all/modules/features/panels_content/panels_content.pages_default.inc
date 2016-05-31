@@ -796,7 +796,7 @@ Handig en compact draaisysteem</p>
       <p class="details-txt">
           Short subline oorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.
       </p>
-      <a class="button" href="/product-assortiment">BESTELLEN</a>
+      <a class="button" href="/product/1">BESTELLEN</a>
 </div>
     <div class="product-img systemen carrousel"></div>',
       'format' => 'full_html',
@@ -843,7 +843,7 @@ Handig en compact draaisysteem</p>
       <p class="details-txt">
           Short subline oorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.
       </p>
-      <a class="button" href="/product-assortiment">BESTELLEN</a>
+      <a class="button" href="/product/3">BESTELLEN</a>
 </div>
     <div class="product-img systemen selectieboxen"></div>',
       'format' => 'full_html',
@@ -900,7 +900,7 @@ Handig en compact draaisysteem</p>
       <p class="details-txt">
           Short subline oorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.
       </p>
-      <a class="button" href="/product-assortiment">BESTELLEN</a>
+      <a class="button" href="/product/2">BESTELLEN</a>
 </div>
     <div class="product-img systemen mini"></div>',
       'format' => 'full_html',
@@ -947,7 +947,7 @@ Handig en compact draaisysteem</p>
       <p class="details-txt">
           Short subline oorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.
       </p>
-      <a class="button" href="/product-assortiment">BESTELLEN</a>
+      <a class="button" href="/product/4">BESTELLEN</a>
 </div>
     <div class="product-img systemen tabletop"></div>',
       'format' => 'full_html',
@@ -994,7 +994,7 @@ Handig en compact draaisysteem</p>
       <p class="details-txt">
           Short subline oorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.
       </p>
-      <a class="button" href="/product-assortiment">BESTELLEN</a>
+      <a class="button" href="/product/5">BESTELLEN</a>
 </div>
     <div class="product-img systemen standalones"></div>',
       'format' => 'full_html',

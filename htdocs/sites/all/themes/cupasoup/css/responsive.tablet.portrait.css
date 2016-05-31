@@ -1,49 +1,55 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003194}}
+.panels-flexible-new .panels-flexible-row {
+  padding: 0;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003201}}
 .bottom-30 {
   margin-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003205}}
 .bottom-80 {
   margin-bottom: 80px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003209}}
 .bottom-90 {
   margin-bottom: 90px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003213}}
 .bottom-95 {
   margin-bottom: 95px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003218}}
 .bottom-120 {
   margin-bottom: 120px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003222}}
 .top-95 {
   margin-top: 95px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003226}}
 .top-100 {
   margin-top: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003230}}
 .top-110 {
   margin-top: 150px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003234}}
 .t-100 {
   top: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/_custom\.scss}line{font-family:\00003238}}
 .center {
   text-align: center;
 }

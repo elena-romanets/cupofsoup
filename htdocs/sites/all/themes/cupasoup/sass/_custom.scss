@@ -190,6 +190,12 @@ $gutter-width: 10px;
   }
 }
 
+// Default padding
+.panels-flexible-new .panels-flexible-row {
+  padding: 0;
+  margin: 0;
+}
+
 // shifts
 
 .bottom-30 {
