@@ -78,42 +78,8 @@
             margin-left: 20px;
         }
 
-        .form-type-radio,
-        .form-type-checkbox {
-            input {
-                display: none;
-            }
-
-            .radio-button,
-            .checkbox-button {
-                width: 32px;
-                height: 32px;
-                background-image: url("../images/radio-btn.png");
-                background-repeat: no-repeat;
-                background-size: cover;
-                display: inline-block;
-                cursor: pointer;
-                position: relative;
-                top: 10px;
-
-                &.active {
-                    background-image: url("../images/radio-active-black-btn.png");
-                }
-            }
-
-            .checkbox-button {
-                background-image: url("../images/checkbox-btn.png");
-
-                &.active {
-                    background-image: url("../images/checkbox-active-btn.png");
-                }
-            }
-        }
-
-        .gender .form-type-radio .radio-button {
-            &.active {
-                background-image: url("../images/radio-active-blue-btn.png");
-            }
+        input[type="radio"] + label {
+            margin-right: 0;
         }
 
         .form-item, .form-actions {
@@ -145,5 +111,4 @@
             font-weight: bold;
         }
     }
-
 }

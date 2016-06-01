@@ -11,6 +11,25 @@
     .panel-separator {
         display: none;
     }
+    .gender,
+    .name {
+        color: $white;
+    }
+    .section-title.blue {
+        color: $white;
+
+        &:before {
+            position: absolute;
+            content: '';
+            display: block;
+            left: 0;
+            z-index: -10;
+            width: 100%;
+            height: 260px;
+            background: #36a0e5;
+            margin: -20px 0 0 0;
+        }
+    }
 
     .service-content {
         margin: 0 auto;
@@ -49,38 +68,6 @@
 
         .webform-container-inline label {
             display: inline-block;
-        }
-
-        .form-type-radio,
-        .form-type-checkbox {
-            input {
-                display: none;
-            }
-
-            .radio-button,
-            .checkbox-button {
-                width: 32px;
-                height: 32px;
-                background-image: url("../images/radio-btn.png");
-                background-repeat: no-repeat;
-                background-size: cover;
-                display: inline-block;
-                cursor: pointer;
-                position: relative;
-                top: 10px;
-
-                &.active {
-                    background-image: url("../images/radio-active-black-btn.png");
-                }
-            }
-
-            .checkbox-button {
-                background-image: url("../images/checkbox-btn.png");
-
-                &.active {
-                    background-image: url("../images/checkbox-active-btn.png");
-                }
-            }
         }
 
         .form-item, .form-actions {

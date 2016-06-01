@@ -134,68 +134,31 @@
   margin-right: 120px;
   margin-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000383}}
-.page-service .service-content .form-type-radio input,
-.page-service .service-content .form-type-checkbox input {
-  display: none;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000381}}
+.page-service .service-content input[type="radio"] + label {
+  margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000387}}
-.page-service .service-content .form-type-radio .radio-button,
-.page-service .service-content .form-type-radio .checkbox-button,
-.page-service .service-content .form-type-checkbox .radio-button,
-.page-service .service-content .form-type-checkbox .checkbox-button {
-  width: 32px;
-  height: 32px;
-  background-image: url("../images/radio-btn.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
-  top: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000399}}
-.page-service .service-content .form-type-radio .radio-button.active,
-.page-service .service-content .form-type-radio .checkbox-button.active,
-.page-service .service-content .form-type-checkbox .radio-button.active,
-.page-service .service-content .form-type-checkbox .checkbox-button.active {
-  background-image: url("../images/radio-active-black-btn.png");
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003104}}
-.page-service .service-content .form-type-radio .checkbox-button,
-.page-service .service-content .form-type-checkbox .checkbox-button {
-  background-image: url("../images/checkbox-btn.png");
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003107}}
-.page-service .service-content .form-type-radio .checkbox-button.active,
-.page-service .service-content .form-type-checkbox .checkbox-button.active {
-  background-image: url("../images/checkbox-active-btn.png");
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003114}}
-.page-service .service-content .gender .form-type-radio .radio-button.active {
-  background-image: url("../images/radio-active-blue-btn.png");
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000385}}
 .page-service .service-content .form-item, .page-service .service-content .form-actions {
   margin: 40px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000391}}
 .page-service .service-content .supplier-options label,
 .page-service .service-content .webform-component-checkboxes label {
   margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000396}}
 .page-service .service-content .pane-title {
   padding-bottom: 20px;
   line-height: 73px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003101}}
 .page-service .service-content .text-details {
   font-size: 15px;
   line-height: 24px;
   padding-bottom: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003107}}
 .page-service .service-content .section-title {
   padding-top: 26px;
   padding-bottom: 36px;

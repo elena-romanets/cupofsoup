@@ -747,3 +747,40 @@ header[role=banner],
 .systemen-footer {
   margin: 20px;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003727}}
+input[type="radio"],
+input[type="checkbox"] {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003731}}
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  background: url("../images/radio-btn.png") no-repeat;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 42px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 0;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003742}}
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+  background-image: url("../images/radio-active-black-btn.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003748}}
+input[type="checkbox"] + label {
+  background-image: url("../images/checkbox-btn.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003752}}
+input[type="checkbox"]:checked + label {
+  background-image: url("../images/checkbox-active-btn.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003758}}
+.gender input[type="radio"]:checked + label {
+  background-image: url("../images/radio-active-blue-btn.png");
+}

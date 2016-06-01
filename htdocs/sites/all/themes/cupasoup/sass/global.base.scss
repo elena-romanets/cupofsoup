@@ -721,3 +721,41 @@ header[role=banner],
 .systemen-footer {
   margin: 20px;
 }
+
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: none;
+
+  & + label {
+    background: url("../images/radio-btn.png") no-repeat;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 42px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 0;
+    font-weight: normal;
+  }
+
+  &:checked + label {
+    background-image: url("../images/radio-active-black-btn.png");
+  }
+}
+
+input[type="checkbox"] {
+  & + label {
+    background-image: url("../images/checkbox-btn.png");
+  }
+
+  &:checked + label {
+    background-image: url("../images/checkbox-active-btn.png");
+  }
+}
+
+.gender {
+  input[type="radio"]:checked + label {
+    background-image: url("../images/radio-active-blue-btn.png");
+  }
+}
