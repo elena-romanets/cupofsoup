@@ -653,7 +653,7 @@ Handig en compact draaisysteem</p>
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'header-details',
+      'css_class' => 'header-details mini',
     );
     $pane->extras = array();
     $pane->position = 8;
