@@ -225,6 +225,10 @@
 
       if (total > 3) {
         $table.append($tableLastRow);
+
+        var freeItem = $('.results .free td').text();
+
+        selectedItems.push(freeItem);
       }
 
       localStorage.setItem('items', JSON.stringify(selectedItems));
