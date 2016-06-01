@@ -784,3 +784,9 @@ input[type="checkbox"]:checked + label {
 .gender input[type="radio"]:checked + label {
   background-image: url("../images/radio-active-blue-btn.png");
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003763}}
+.page-service-result .region-footer {
+  position: fixed;
+  bottom: 0;
+}
