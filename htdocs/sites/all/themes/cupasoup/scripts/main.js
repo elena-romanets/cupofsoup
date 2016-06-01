@@ -229,8 +229,6 @@
 
       localStorage.setItem('items', JSON.stringify(selectedItems));
 
-      console.log(selectedItems);
-
       if (full) {
         $btnActive.addClass('active');
         $res.show();
@@ -243,9 +241,6 @@
       }
 
       $totalPrice.text(Math.round(totalPrice * 100) / 100);
-      //console.log('totalPrice:', totalPrice);
-      //console.log('prices:', prices);
-      //console.log('items:', items);
     }
 
   });
