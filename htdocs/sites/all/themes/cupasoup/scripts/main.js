@@ -263,7 +263,7 @@
       }
 
       if (productOrderMini) {
-        if (total > 8) {
+        if (total < 8) {
           $table.append($tableLastRow.eq(0));
         }
         else {

@@ -2275,7 +2275,7 @@ function panels_content_default_page_manager_pages() {
                 <tr class="free mini less-9">
 			<td>MiNi Automaat</td>
 			<td>&nbsp;</td>
-			<td>Gratis</td>
+			<td>€199,-</td>
 		</tr>
                 <tr class="free mini more-9">
 			<td>MiNi Startpakket</td>
