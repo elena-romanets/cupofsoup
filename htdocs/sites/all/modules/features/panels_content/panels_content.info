@@ -23,6 +23,7 @@ features[page_manager_pages][] = cup_a_soup_systemen
 features[page_manager_pages][] = home_page
 features[page_manager_pages][] = product
 features[page_manager_pages][] = product_assortiment
+features[page_manager_pages][] = service_result_page
 features[views_view][] = product_assortiment
 features[views_view][] = product_category
 features_exclude[dependencies][ctools] = ctools

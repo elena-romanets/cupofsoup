@@ -1560,6 +1560,25 @@ function panels_content_default_page_manager_pages() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
+    $pane->pid = 'new-b4725d67-6d4b-4158-8870-0505371d23d2';
+    $pane->panel = 'center';
+    $pane->type = 'page_messages';
+    $pane->subtype = 'page_messages';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array();
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'b4725d67-6d4b-4158-8870-0505371d23d2';
+    $display->content['new-b4725d67-6d4b-4158-8870-0505371d23d2'] = $pane;
+    $display->panels['center'][0] = 'new-b4725d67-6d4b-4158-8870-0505371d23d2';
+    $pane = new stdClass();
     $pane->pid = 'new-c13a9c1a-8870-4583-81ba-e3c7babbd014';
     $pane->panel = 'center';
     $pane->type = 'node';
@@ -1586,11 +1605,11 @@ function panels_content_default_page_manager_pages() {
       'css_class' => 'service-content',
     );
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = 'c13a9c1a-8870-4583-81ba-e3c7babbd014';
     $display->content['new-c13a9c1a-8870-4583-81ba-e3c7babbd014'] = $pane;
-    $display->panels['center'][0] = 'new-c13a9c1a-8870-4583-81ba-e3c7babbd014';
+    $display->panels['center'][1] = 'new-c13a9c1a-8870-4583-81ba-e3c7babbd014';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
@@ -2253,7 +2272,7 @@ function panels_content_default_page_manager_pages() {
       'body' => '<div class="results">
 <table>
 	<tbody>
-		<tr>
+		<tr class="free">
 			<td>Cup-a-Soup Startpakket</td>
 			<td>&nbsp;</td>
 			<td>Gratis</td>
@@ -3022,7 +3041,7 @@ De bovenstaande bedragen zijn adviesprijzen, deze bedragen kunnen afwijken van h
       'body' => '<div class="results">
 <table>
 	<tbody>
-		<tr>
+		<tr class="free">
 			<td>Cup-a-Soup Startpakket</td>
 			<td>&nbsp;</td>
 			<td>Gratis</td>
@@ -3096,6 +3115,92 @@ De bovenstaande bedragen zijn adviesprijzen, deze bedragen kunnen afwijken van h
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $pages['product_assortiment'] = $page;
+
+  $page = new stdClass();
+  $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
+  $page->api_version = 1;
+  $page->name = 'service_result_page';
+  $page->task = 'page';
+  $page->admin_title = 'Service result page';
+  $page->admin_description = '';
+  $page->path = 'service-result';
+  $page->access = array();
+  $page->menu = array();
+  $page->arguments = array();
+  $page->conf = array(
+    'admin_paths' => FALSE,
+  );
+  $page->default_handlers = array();
+  $handler = new stdClass();
+  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->api_version = 1;
+  $handler->name = 'page_service_result_page__panel';
+  $handler->task = 'page';
+  $handler->subtask = 'service_result_page';
+  $handler->handler = 'panel_context';
+  $handler->weight = 0;
+  $handler->conf = array(
+    'title' => 'Panel',
+    'no_blocks' => 0,
+    'pipeline' => 'standard',
+    'body_classes_to_remove' => '',
+    'body_classes_to_add' => 'service-result page-service',
+    'css_id' => '',
+    'css' => '',
+    'contexts' => array(),
+    'relationships' => array(),
+    'name' => 'panel',
+  );
+  $display = new panels_display();
+  $display->layout = 'flexible';
+  $display->layout_settings = array();
+  $display->panel_settings = array(
+    'style_settings' => array(
+      'default' => NULL,
+      'center' => NULL,
+    ),
+  );
+  $display->cache = array();
+  $display->title = '';
+  $display->uuid = '9669f51d-fe03-4ea3-bc0d-4329baaeaf8b';
+  $display->content = array();
+  $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-3534e4e2-236c-4160-bc7c-329360674401';
+    $pane->panel = 'center';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => 'BESTELLING PLAATSEN Result page',
+      'title' => '',
+      'body' => '<h2 class="pane-title block-title">BESTELLING PLAATSEN</h2>
+<div class="text-details">
+<a href="/">Home</a>
+</div>',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'service-content',
+    );
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '3534e4e2-236c-4160-bc7c-329360674401';
+    $display->content['new-3534e4e2-236c-4160-bc7c-329360674401'] = $pane;
+    $display->panels['center'][0] = 'new-3534e4e2-236c-4160-bc7c-329360674401';
+  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->title_pane = '0';
+  $handler->conf['display'] = $display;
+  $page->default_handlers[$handler->name] = $handler;
+  $pages['service_result_page'] = $page;
 
   return $pages;
 
