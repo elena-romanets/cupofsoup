@@ -263,22 +263,15 @@
       }
 
       if (productOrderMini) {
-        console.log('moini');
-        console.log(total);
-        console.log($tableLastRow);
-
         if (total > 8) {
-
+          $table.append($tableLastRow.eq(0));
         }
         else {
+          $table.append($tableLastRow.eq(1))
         }
 
-        //$table.append($tableLastRow);
-
         var freeItem = $('.results .free td').text();
-
         selectedItems.push(freeItem);
-
       }
 
       localStorage.setItem('items', JSON.stringify(selectedItems));

@@ -2272,8 +2272,13 @@ function panels_content_default_page_manager_pages() {
       'body' => '<div class="results">
 <table>
 	<tbody>
-		<tr class="free">
-			<td>Cup-a-Soup Startpakket</td>
+                <tr class="free mini less-9">
+			<td>MiNi Automaat</td>
+			<td>&nbsp;</td>
+			<td>Gratis</td>
+		</tr>
+                <tr class="free mini more-9">
+			<td>MiNi Startpakket</td>
 			<td>&nbsp;</td>
 			<td>Gratis</td>
 		</tr>
