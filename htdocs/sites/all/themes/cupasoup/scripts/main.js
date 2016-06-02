@@ -52,10 +52,13 @@
     $allInputs.change(updateTotal);
 
 
+    var iProd = 1;
     $('.field-name-field-title .field-item').each(function(index) {
+
+      var checked = iProd == 1 ? "checked" : "";
       var $el = $(this);
       var id = 'radio-' + index;
-      var $inp = $('<input type="radio" name="product-option"/>');
+      var $inp = $('<input type="radio" name="product-option" ' + checked + ' class="radio-input">');
       $inp.val($el.text());//$(this).parents('.field-item').find('.field-name-field-value .field-item').text());
       $inp.attr('id', id);
       $inp.change(updateTotal);
@@ -66,6 +69,11 @@
         .empty()
         .append($inp)
         .append($label);
+
+      iProd++;
+
+      // Check for product page for activating button
+      $btnActive.addClass('active');
     });
 
     var $assortimentLinks = $('.assortiment-menu .assortiment-link');
@@ -100,7 +108,27 @@
         $deliveryInput.attr('required', 'required');
       }
     });
-    $('.delivery').hide();
+
+    if ($('.address-approve input.form-checkbox').is(':checked')) {
+      $('.delivery').show();
+    }
+    else {
+      $('.delivery').hide();
+    }
+
+    // Supplier options
+    var $supplier = $('.supplier');
+    var $supplierInput = $supplier.find('input');
+    $supplierInput.attr('required', 'required');
+    $('.supplier-options .form-type-radio label').click(function() {
+      $supplier.slideToggle('fast');
+
+      if ($supplierInput.attr('required')) {
+        $supplierInput.removeAttr('required');
+      } else {
+        $supplierInput.attr('required', 'required');
+      }
+    });
 
     // Mobile menuIcon
     $('.mob-menu .block-content').append('<span class="menuIcon"><span></span></span>');
@@ -223,7 +251,10 @@
         }
       }
 
-      if (total > 3) {
+      var productOrder = $('body').hasClass('page-product');
+      var productOrderMini = $('.page-product .header-details').hasClass('mini');
+      if (total > 3 && !productOrder) {
+
         $table.append($tableLastRow);
 
         var freeItem = $('.results .free td').text();
@@ -231,9 +262,30 @@
         selectedItems.push(freeItem);
       }
 
+      if (productOrderMini) {
+        console.log('moini');
+        console.log(total);
+        console.log($tableLastRow);
+
+        if (total > 8) {
+
+        }
+        else {
+        }
+
+        //$table.append($tableLastRow);
+
+        var freeItem = $('.results .free td').text();
+
+        selectedItems.push(freeItem);
+
+      }
+
       localStorage.setItem('items', JSON.stringify(selectedItems));
 
-      if (full) {
+      var inputRadio = $('.field-name-field-title .field-item input').hasClass('radio-input');
+
+      if (full || inputRadio) {
         $btnActive.addClass('active');
         $res.show();
         $emptyRes.hide();
