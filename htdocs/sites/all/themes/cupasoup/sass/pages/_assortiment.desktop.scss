@@ -1,7 +1,8 @@
-.assortiment {
+body.assortiment {
 
-    .region-header {
+    .panels-flexible-region.region-header {
         height: 769px;
+        padding-bottom: 0;
     }
 }
 
@@ -70,7 +71,8 @@
         background-color: $grey;
     }
 
-    .block-title {
+    .block-title,
+    .product-assortiment-popup .title {
         font-size: 36px;
     }
 

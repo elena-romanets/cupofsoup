@@ -350,7 +350,7 @@ function panels_content_default_page_manager_handlers() {
       'body' => '    <div class="text">
       <h2 class="pane-title">GRATIS CUP-A-SOUP STARTPAKK</h2>
       <p class="details-txt">Bij aankoop van 4 dozen naar keuze.</p>
-      <a class="button" href="/product-assortiment">BESTELLEN</a>
+      <a class="button" href="/product/1">BESTELLEN</a>
     </div>
 
     <div class="product-img"></div>',

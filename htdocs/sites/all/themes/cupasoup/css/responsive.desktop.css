@@ -55,24 +55,25 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\000032}}
-.page-service .region-header {
+.page-service .panels-flexible-region.region-header {
   background-image: none;
+  padding-bottom: 0;
   height: 172px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\000038}}
 .page-service .panel-separator {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000312}}
 .page-service .gender,
 .page-service .name {
   color: #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000316}}
 .page-service .section-title.blue {
   color: #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000319}}
 .page-service .section-title.blue:before {
   position: absolute;
   content: '';
@@ -84,25 +85,25 @@
   background: #36a0e5;
   margin: -50px 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000333}}
 .page-service .service-content {
   width: 960px;
   margin: 0 auto;
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000338}}
 .page-service .service-content label {
   font-size: 15px;
   font-weight: 400;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000343}}
 .page-service .service-content input,
 .page-service .service-content select {
   padding: 5px 20px;
   font-size: 15px;
   height: 52px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000350}}
 .page-service .service-content select {
   padding: 5px 8px;
   width: 350px;
@@ -114,12 +115,12 @@
   -moz-appearance: none;
   appearance: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000362}}
 .page-service .service-content .address input,
 .page-service .service-content .postcode input {
   width: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000367}}
 .page-service .service-content .address-number input {
   width: 100px;
   float: right;
@@ -127,38 +128,38 @@
   top: -106px;
   right: 165px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000375}}
 .page-service .service-content .webform-container-inline label {
   display: inline-block;
   width: 150px;
   margin-right: 120px;
   margin-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000382}}
 .page-service .service-content input[type="radio"] + label {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000386}}
 .page-service .service-content .form-item, .page-service .service-content .form-actions {
   margin: 40px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000392}}
 .page-service .service-content .supplier-options label,
 .page-service .service-content .webform-component-checkboxes label {
   margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\0000397}}
 .page-service .service-content .pane-title {
   padding-bottom: 20px;
   line-height: 73px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003102}}
 .page-service .service-content .text-details {
   font-size: 15px;
   line-height: 24px;
   padding-bottom: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_service\.desktop\.scss}line{font-family:\00003108}}
 .page-service .service-content .section-title {
   padding-top: 26px;
   padding-bottom: 36px;
@@ -204,7 +205,7 @@ body.faq .faq-row {
   position: relative;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_faq\.desktop\.scss}line{font-family:\0000338}}
-body.faq .region-header {
+body.faq .panels-flexible-region.region-header {
   background-image: none;
   height: auto;
   padding-bottom: 120px;
@@ -294,25 +295,26 @@ body.faq .item-list h3 {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\000033}}
-.assortiment .region-header {
+body.assortiment .panels-flexible-region.region-header {
   height: 769px;
+  padding-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\000039}}
 .assortiment-row-2,
 .assortiment-row-3,
 .assortiment-row-4 {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000317}}
 .assortiment-menu .tabs-items {
   position: relative;
   top: 73px;
   width: 1080px;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000323}}
 .assortiment-menu .tabs-items .item {
   display: block;
   float: left;
@@ -322,7 +324,7 @@ body.faq .item-list h3 {
   width: 270px;
   height: 90px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000333}}
 .assortiment-menu .tabs-items .item .assortiment-link,
 .assortiment-menu .tabs-items .item a {
   font-size: 18px;
@@ -332,7 +334,7 @@ body.faq .item-list h3 {
   height: 90px;
   line-height: 90px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000342}}
 .assortiment-menu .tabs-items .item .assortiment-link.active, .assortiment-menu .tabs-items .item .assortiment-link:hover,
 .assortiment-menu .tabs-items .item a.active,
 .assortiment-menu .tabs-items .item a:hover {
@@ -341,102 +343,103 @@ body.faq .item-list h3 {
   color: #ffffff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000353}}
 .assortiment-details {
   margin-top: 70px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000356}}
 .assortiment-details .pane-title {
   color: #289448;
   font-size: 18px;
   margin-bottom: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000362}}
 .assortiment-details .block-content {
   width: 1080px;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000370}}
 .assortiment-block.assortiment-popular .block-content {
   background-color: #ebebeb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000373}}
-.assortiment-block .block-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000374}}
+.assortiment-block .block-title,
+.assortiment-block .product-assortiment-popup .title {
   font-size: 36px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000379}}
 .assortiment-block .block-title,
 .assortiment-block .view {
   width: 1080px;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000385}}
 .assortiment-block table {
   border: none;
   table-layout: fixed;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000389}}
 .assortiment-block table th:first-child,
 .assortiment-block table th:nth-child(2),
 .assortiment-block table th:nth-child(3),
 .assortiment-block table .prod-link {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\0000396}}
 .assortiment-block table th {
   text-align: center;
   color: #8a8a89;
   font-size: 18px;
   padding: 19px 0 33px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003102}}
 .assortiment-block table th:last-child {
   width: 140px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003105}}
 .assortiment-block table th:nth-child(2) {
   width: 180px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003108}}
 .assortiment-block table th:nth-child(3) {
   width: 215px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003115}}
 .assortiment-block table tbody tr {
   height: 230px;
   border-bottom: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003119}}
 .assortiment-block table tbody tr td {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003123}}
 .assortiment-block table tbody tr .prod-link {
   padding-top: 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003127}}
 .assortiment-block table tbody tr .prod-amount,
 .assortiment-block table tbody tr .prod-price {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003132}}
 .assortiment-block table tbody tr .prod-amount {
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003136}}
 .assortiment-block table tbody tr .product-assortiment-image {
   float: left;
   margin: 0 38px 0 -1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003141}}
 .assortiment-block table tbody tr .product-assortiment-link {
   font-size: 15px;
   color: #289448;
   text-decoration: underline;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003149}}
 .assortiment-block table tbody tr .product-assortiment-popup .close-btn {
   display: block;
   content: '';
@@ -447,11 +450,11 @@ body.faq .item-list h3 {
   cursor: pointer;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003160}}
 .assortiment-block table tbody tr .product-assortiment-popup.hide {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003164}}
 .assortiment-block table tbody tr .product-assortiment-popup.show {
   display: block;
   position: absolute;
@@ -465,40 +468,40 @@ body.faq .item-list h3 {
   margin-top: -170px;
   z-index: 6000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003177}}
 .assortiment-block table tbody tr .product-assortiment-popup.show .block {
   max-width: 720px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003180}}
 .assortiment-block table tbody tr .product-assortiment-popup.show .block-1 {
   padding-bottom: 30px;
   border-bottom: 1px solid #8a8a89;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003185}}
 .assortiment-block table tbody tr .product-assortiment-popup.show .block .title {
   margin-bottom: 10px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003190}}
 .assortiment-block table tbody tr .product-assortiment-popup.show .block .cell {
   max-width: 250px;
   padding-right: 40px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003199}}
 .assortiment-block table tbody tr .sm-title {
   font-size: 24px;
   margin-bottom: 10px;
   padding-top: 32px;
   line-height: 32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003207}}
 .assortiment-block table tbody tr .form-placeholder input {
   width: 58px;
   height: 34px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003213}}
 .assortiment-block table tbody tr .form-placeholder .minus,
 .assortiment-block table tbody tr .form-placeholder .plus {
   cursor: pointer;
@@ -508,7 +511,7 @@ body.faq .item-list h3 {
   height: 16px;
   text-indent: -99999px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003222}}
 .assortiment-block table tbody tr .form-placeholder .minus:before,
 .assortiment-block table tbody tr .form-placeholder .plus:before {
   content: '';
@@ -519,15 +522,15 @@ body.faq .item-list h3 {
   top: 12px;
   background: #046a28;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003233}}
 .assortiment-block table tbody tr .form-placeholder .minus {
   margin-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003237}}
 .assortiment-block table tbody tr .form-placeholder .plus {
   margin-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003240}}
 .assortiment-block table tbody tr .form-placeholder .plus:after {
   content: '';
   display: block;
@@ -539,7 +542,7 @@ body.faq .item-list h3 {
   background: #046a28;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003257}}
 .assortiment-total-price .button a {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -550,24 +553,24 @@ body.faq .item-list h3 {
   filter: gray;
   pointer-events: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003267}}
 .assortiment-total-price .button a.active {
   filter: none;
   -webkit-filter: grayscale(0%);
   pointer-events: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003274}}
 .assortiment-total-price {
   width: 1080px;
   margin: 60px auto 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003278}}
 .assortiment-total-price .pane-title {
   font-size: 17px;
   margin-bottom: 27px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003283}}
 .assortiment-total-price table,
 .assortiment-total-price thead,
 .assortiment-total-price tbody,
@@ -578,36 +581,36 @@ body.faq .item-list h3 {
   width: 840px;
   color: #b7b7b6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003294}}
 .assortiment-total-price .empty-result {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003298}}
 .assortiment-total-price table {
   width: 840px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003304}}
 .assortiment-total-price table tr:last-child {
   line-height: 55px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003310}}
 .assortiment-total-price .total-wrapper {
   width: 300px;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003315}}
 .assortiment-total-price .bottom-wrapper {
   color: #2a2927;
   padding: 130px 0 170px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003319}}
 .assortiment-total-price .bottom-wrapper .details-text {
   width: 640px;
   float: left;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.desktop\.scss}line{font-family:\00003325}}
 .assortiment-total-price .bottom-wrapper .button.btn-more {
   text-align: right;
   padding-right: 120px;
@@ -670,8 +673,8 @@ body.faq .item-list h3 {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_systemen\.desktop\.scss}line{font-family:\0000360}}
-.systemen .region-header {
-  height: 484px;
+body.systemen .panels-flexible-region.region-header {
+  height: 400px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_systemen\.desktop\.scss}line{font-family:\0000366}}
@@ -859,14 +862,22 @@ a.button:after,
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003133}}
-.region-header {
-  height: 900px;
+.link-block {
+  color: #2a2927;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003139}}
+body .panels-flexible-region.region-header {
+  position: relative;
+  height: auto;
+  padding-bottom: 100px;
   background: url("../images/main-header-bg.jpg") no-repeat;
   background-size: cover;
-  position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003139}}
-.region-header .logo {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003146}}
+body .panels-flexible-region.region-header .logo {
   display: block;
   position: relative;
   top: -22px;
@@ -874,26 +885,26 @@ a.button:after,
   width: 196px;
   height: 124px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003147}}
-.region-header .logo img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003154}}
+body .panels-flexible-region.region-header .logo img {
   position: relative;
   z-index: 100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003153}}
-.region-header .main-menu {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003160}}
+body .panels-flexible-region.region-header .main-menu {
   display: block;
   position: absolute;
   right: 12px;
   top: 41px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003160}}
-.region-header ul.menu {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003167}}
+body .panels-flexible-region.region-header ul.menu {
   display: block;
   padding: 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003165}}
-.region-header ul.menu li {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003172}}
+body .panels-flexible-region.region-header ul.menu li {
   display: block;
   width: auto;
   list-style-type: none;
@@ -906,8 +917,8 @@ a.button:after,
   -moz-box-shadow: 6px 6px rgba(41, 117, 24, 0.7);
   box-shadow: 6px 6px rgba(41, 117, 24, 0.7);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003178}}
-.region-header ul.menu li a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003185}}
+body .panels-flexible-region.region-header ul.menu li a {
   padding: 15px;
   text-decoration: none;
   font-size: 18px;
@@ -915,12 +926,11 @@ a.button:after,
   font-weight: 700;
   color: #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003189}}
-.region-header .header-details {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003196}}
+body .panels-flexible-region.region-header .header-details {
   position: relative;
   display: block;
   width: auto;
-  height: 590px;
   background: #fce202;
   border: 20px solid #ffffff;
   -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
@@ -928,48 +938,52 @@ a.button:after,
   box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
   margin: 0 32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003201}}
-.region-header .header-details .block-content {
-  padding: 100px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003208}}
+body .panels-flexible-region.region-header .header-details .block-content {
+  padding: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003205}}
-.region-header .header-details .text {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003212}}
+body .panels-flexible-region.region-header .header-details .text {
   display: inline-block;
   position: relative;
   width: 50%;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003211}}
-.region-header .header-details .text .pane-title,
-.region-header .header-details .text .details-txt,
-.region-header .header-details .text p {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003218}}
+body .panels-flexible-region.region-header .header-details .text .pane-title,
+body .panels-flexible-region.region-header .header-details .text .details-txt,
+body .panels-flexible-region.region-header .header-details .text p {
   max-width: 500px;
   margin: 35px auto 20px;
   padding-left: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003220}}
-.region-header .header-details.header-details-assortiments, .region-header .header-details.header-details-systemen {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003227}}
+body .panels-flexible-region.region-header .header-details.header-details-assortiments, body .panels-flexible-region.region-header .header-details.header-details-systemen {
   height: 410px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003225}}
-.region-header .header-details.header-details-assortiments .text, .region-header .header-details.header-details-systemen .text {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003232}}
+body .panels-flexible-region.region-header .header-details.header-details-assortiments .block-content, body .panels-flexible-region.region-header .header-details.header-details-systemen .block-content {
+  padding: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003236}}
+body .panels-flexible-region.region-header .header-details.header-details-assortiments .text, body .panels-flexible-region.region-header .header-details.header-details-systemen .text {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003230}}
-.region-header .header-details .product-img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003241}}
+body .panels-flexible-region.region-header .header-details .product-img {
   display: inline-block;
   position: relative;
   background: url("../images/product.png") no-repeat;
   width: 50%;
-  height: 529px;
+  height: 329px;
   right: 0;
   bottom: 0;
   float: right;
   background-size: contain;
   background-position: 50% 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003242}}
-.region-header .header-details .product-img.assortiment {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003253}}
+body .panels-flexible-region.region-header .header-details .product-img.assortiment {
   background: url("../images/assoriment-prod.png") no-repeat;
   background-size: contain;
   background-position: 50% 0;
@@ -977,8 +991,8 @@ a.button:after,
   bottom: 0;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003251}}
-.region-header .header-details .product-img.systemen {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003262}}
+body .panels-flexible-region.region-header .header-details .product-img.systemen {
   background: url("../images/systemen.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -987,51 +1001,51 @@ a.button:after,
   bottom: 0;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003260}}
-.region-header .header-details .product-img.systemen.carrousel {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003271}}
+body .panels-flexible-region.region-header .header-details .product-img.systemen.carrousel {
   background-image: url("../images/header-carrousel.png");
   height: 205px;
   top: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003266}}
-.region-header .header-details .product-img.systemen.selectieboxen {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003277}}
+body .panels-flexible-region.region-header .header-details .product-img.systemen.selectieboxen {
   background-image: url("../images/selectboxen-product.png");
   height: 326px;
   top: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003272}}
-.region-header .header-details .product-img.systemen.mini {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003283}}
+body .panels-flexible-region.region-header .header-details .product-img.systemen.mini {
   background-image: url("../images/mini-product.png");
   height: 212px;
   top: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003278}}
-.region-header .header-details .product-img.systemen.tabletop {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003289}}
+body .panels-flexible-region.region-header .header-details .product-img.systemen.tabletop {
   background-image: url("../images/tabletop-product.png");
   height: 214px;
   top: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003284}}
-.region-header .header-details .product-img.systemen.standalones {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003295}}
+body .panels-flexible-region.region-header .header-details .product-img.systemen.standalones {
   background-image: url("../images/standalones-product.png");
   height: 195px;
   top: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003306}}
 .desc-section {
   display: block;
   position: relative;
   height: 450px;
   padding-top: 135px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003312}}
 .desc-section .pane-title {
   text-align: center;
   color: #046a28;
   margin: 130px 0 50px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003318}}
 .desc-section .details-txt {
   font-size: 15px;
   color: #2a2927;
@@ -1040,7 +1054,7 @@ a.button:after,
   margin: 0 auto;
   line-height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003327}}
 .desc-section .product-img {
   display: block;
   position: absolute;
@@ -1053,14 +1067,14 @@ a.button:after,
   z-index: 10;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003343}}
 .desc-section-more {
   display: block;
   position: relative;
   background: #046a28;
   min-height: 1025px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003349}}
 .desc-section-more-footer {
   display: block;
   position: absolute;
@@ -1071,7 +1085,7 @@ a.button:after,
   z-index: 1;
   bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003360}}
 .desc-section-more .pane-title {
   font-size: 36px;
   color: #fff100;
@@ -1079,7 +1093,7 @@ a.button:after,
   margin-bottom: 23px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003369}}
 .desc-section-more .details-txt {
   font-size: 15px;
   color: #ffffff;
@@ -1088,18 +1102,18 @@ a.button:after,
   margin: 0 auto;
   line-height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003378}}
 .desc-section-more .home-items .product-img {
   height: 220px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003382}}
 .desc-section-more .product-items-owl {
   min-height: 0 !important;
   overflow: hidden !important;
   height: 0 !important;
   opacity: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003389}}
 .desc-section-more .product-items {
   position: relative;
   display: flex;
@@ -1111,7 +1125,7 @@ a.button:after,
   width: auto;
   min-height: 560px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003400}}
 .desc-section-more .product-items .item {
   display: block;
   max-width: 230px;
@@ -1123,166 +1137,166 @@ a.button:after,
   padding-top: 38px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003411}}
 .desc-section-more .product-items .item:last-child {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003415}}
 .desc-section-more .product-items .item .details-txt {
   width: auto;
   margin-bottom: 35px;
   color: #2a2927;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003421}}
 .desc-section-more .product-items .item .prod-title {
   font-size: 24px;
   color: #2a2927;
   margin: 60px auto 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003416}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003427}}
 .desc-section-more .product-items .item .button a {
   margin-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003432}}
 .desc-section-more .product-items .item-1 .product-img {
   background: url("../images/header-carrousel.png") no-repeat;
   width: 136px;
   height: 205px;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003440}}
 .desc-section-more .product-items .item.last {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003449}}
 .region-footer {
   display: block;
   width: 100%;
   height: 90px;
   background: #2a2927;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003455}}
 .region-footer ul.menu {
   margin-top: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003461}}
 .systemen .region-header {
   height: 484px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003465}}
 .systemen-overview {
   display: block;
   color: #ffffff;
   margin: 20px 12px;
   padding-top: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003471}}
 .systemen-overview .systemen {
   display: block;
   height: 410px;
   padding: 70px 10px 0 10px;
   margin: 20px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003477}}
 .systemen-overview .systemen.red {
   background-color: #cf3227;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003469}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003480}}
 .systemen-overview .systemen.blue {
   background-color: #09a2c9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003483}}
 .systemen-overview .systemen.green {
   background-color: #289448;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003487}}
 .systemen-overview .systemen .product-img {
   float: left;
   width: 50%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003493}}
 .systemen-overview .systemen .prod-title {
   font-size: 36px;
   line-height: 36px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003498}}
 .systemen-overview .systemen .product-text {
   float: left;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003502}}
 .systemen-overview .systemen .product-text .product-txt {
   font-size: 15px;
   line-height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003495}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003506}}
 .systemen-overview .systemen .product-text .product-txt .bold {
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003500}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003511}}
 .systemen-overview .systemen .product-text .product-details-desc {
   color: #2a2927;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003515}}
 .systemen-overview .systemen .product-text .product-links {
   margin-top: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003518}}
 .systemen-overview .systemen .product-text .product-links .btn-more {
   width: 50%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003523}}
 .systemen-overview .systemen .product-text .product-links .product-details-info {
   padding: 12px 0 0 0;
   color: #ffffff;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003517}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003528}}
 .systemen-overview .systemen .product-text .product-links .product-details-info a {
   color: #ffffff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003526}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003537}}
 .systemen-footer-section-1 {
   width: 50%;
   display: inline-block;
   float: left;
   padding: 56px 0 24px 151px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003543}}
 .systemen-footer-section-1 .title {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003537}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003548}}
 .systemen-footer-section-2 {
   padding: 56px 0 24px 108px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003541}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003552}}
 .systemen-footer-section-2 .title {
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003556}}
 .systemen-footer-section-2 .description {
   margin: 25px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003561}}
 .systemen-footer {
   margin-bottom: 45px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003566}}
 .body-overlay {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003558}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003569}}
 .body-overlay.show {
   position: fixed;
   top: 0;
@@ -1297,15 +1311,15 @@ a.button:after,
 }
 
 @media (min-width: 1300px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003575}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003586}}
   .region-header .header-details .product-img {
     bottom: 60px;
   }
 }
 @media (min-width: 1380px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003582}}
-  .region-header .header-details,
-  .region-header .logo,
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003593}}
+  body .panels-flexible-region.region-header .header-details,
+  body .panels-flexible-region.region-header .logo,
   .top-menu,
   .main-menu-list,
   .region-footer .panels-flexible-region-inside-first,
@@ -1315,92 +1329,87 @@ a.button:after,
     margin: 0 auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003593}}
-  .region-header .logo {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003604}}
+  body .panels-flexible-region.region-header .logo {
     left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003596}}
-  .region-header .logo img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003607}}
+  body .panels-flexible-region.region-header .logo img {
     margin-left: 11px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003601}}
-  .region-header .header-details {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003612}}
+  body .panels-flexible-region.region-header .header-details {
     max-width: 1320px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003605}}
-  .region-header .logo {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003616}}
+  body .panels-flexible-region.region-header .logo {
     width: auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003609}}
-  .systemen .region-header {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003620}}
+  body.systemen .panels-flexible-region.region-header {
     height: 484px;
     padding-bottom: 80px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003614}}
-  .assortiment .region-header {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003625}}
+  body.assortiment .panels-flexible-region.region-header {
     height: auto;
-    padding-bottom: 80px;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003619}}
-  .assortiment .region-header {
     padding-bottom: 72px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003623}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003634}}
   .region-top-header ul.menu li {
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003627}}
-  .region-header .main-menu.main-menu-list {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003638}}
+  body .panels-flexible-region.region-header .main-menu.main-menu-list {
     position: relative;
     top: -100px;
     right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003632}}
-  .region-header .main-menu.main-menu-list ul.menu {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003643}}
+  body .panels-flexible-region.region-header .main-menu.main-menu-list ul.menu {
     float: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003637}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003648}}
   .desc-section-more .product-items .item {
     max-width: 250px;
     min-width: 250px;
     margin-right: 10px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003642}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003653}}
   .desc-section-more .product-items .item:last-child {
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003647}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003658}}
   .systemen-details .blue-section .image {
     right: 250px;
   }
 }
 @media (max-width: 1278px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003654}}
-  .region-header ul.menu li a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003665}}
+  body.assortiment .panels-flexible-region.region-header ul.menu li a {
     font-size: 12px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003658}}
-  .region-header .header-details .text .pane-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003669}}
+  body.assortiment .panels-flexible-region.region-header .header-details .text .pane-title {
     font-size: 35px;
     line-height: 45px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003663}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003674}}
   .desc-section-more .product-items {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003667}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003678}}
   .desc-section-more .product-items .item {
     float: none;
     margin-bottom: 10px;
@@ -1409,7 +1418,7 @@ a.button:after,
     height: 330px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003675}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003686}}
   .desc-section-more .product-items .item .product-img,
   .desc-section-more .product-items .item .product-img .text {
     display: inline-block;
@@ -1417,41 +1426,41 @@ a.button:after,
     height: 330px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003693}}
   .desc-section-more .product-items .item .product-img {
     float: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003685}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003696}}
   .desc-section-more .product-items .item .product-img img {
     top: 50px;
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003691}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003702}}
   .desc-section .product-img {
     display: none;
   }
 }
 @media (max-width: 1150px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003698}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003709}}
   .systemen-details .blue-section .image {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003701}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003712}}
   .assortiment-menu .tabs-items .item,
   .assortiment-menu .tabs-items .item .assortiment-link,
   .assortiment-menu .tabs-items .item a {
     width: 220px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003707}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003718}}
   .assortiment-menu .tabs-items,
   .assortiment-details .block-content {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003712}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003723}}
   .assortiment-block .block-title,
   .assortiment-block .view,
   .assortiment-total-price,
@@ -1467,80 +1476,80 @@ a.button:after,
     width: 90%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003727}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003738}}
   .systemen-details .block .cell {
     max-width: 240px;
     margin-right: 50px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003732}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003743}}
   .page-service .service-content {
     width: 850px;
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003748}}
   .page-service .service-content .webform-container-inline label {
     margin-right: 80px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003741}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003752}}
   .page-service .service-content .address-number input {
     right: 90px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003745}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003756}}
   .assortiment-details .block-content .text {
     padding-left: 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003749}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003760}}
   .assortiment-total-price .bottom-wrapper .details-text,
   .empty-result {
     width: 450px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003754}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003765}}
   .assortiment-total-price table,
   .assortiment-total-price td {
     width: 750px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003759}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003770}}
   .assortiment-total-price .bottom-wrapper .button.btn-more {
     padding-right: 90px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003763}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003774}}
   .assortiment-total-price table tr td:last-child {
     text-align: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003768}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003779}}
   .assortiment-block table tbody tr .sm-title {
     font-size: 20px;
     line-height: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003784}}
   .assortiment-block table tbody tr .prod-link {
     padding-bottom: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003776}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003787}}
   .assortiment-block table tbody tr .prod-link .product-assortiment-image {
     float: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003792}}
   .assortiment-total-price .total-wrapper {
     width: 270px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003786}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003797}}
   .systemen-footer-section-1 {
     padding: 56px 0 24px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003789}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.desktop\.scss}line{font-family:\00003800}}
   .systemen-footer-section-1 .title,
   .systemen-footer-section-1 .details-text {
     padding-left: 50px;

@@ -27,7 +27,7 @@ function panels_content_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: main-menu_klantenservice:taxonomy/term/9.
@@ -47,7 +47,7 @@ function panels_content_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: main-menu_product-assortiment:product-assortiment.
@@ -67,7 +67,7 @@ function panels_content_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => -49,
     'customized' => 1,
   );
 

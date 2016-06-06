@@ -511,3 +511,20 @@ a.button,
 .page-home .product-items-owl {
   display: block!important;
 }
+
+// Overlay
+.body-overlay {
+  display: none;
+
+  &.show {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    z-index: 5000;
+    background: 0 0;
+    background: rgba(0,0,0,.4);
+  }
+}

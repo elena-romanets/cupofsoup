@@ -55,10 +55,10 @@
 }
 
 // Systemen details page
-.systemen {
+body.systemen {
 
-    .region-header {
-        height: 484px;
+    .panels-flexible-region.region-header {
+        height: 400px;
     }
 }
 

@@ -450,10 +450,10 @@ body.faq .item-list h3 {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  background: #b7b7b6;
+  background: #ffffff;
   width: 100%;
   margin-top: -170px;
-  z-index: 100;
+  z-index: 6000;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/pages\/_assortiment\.mob\.scss}line{font-family:\00003187}}
 .assortiment-block table tbody tr .product-assortiment-popup.show p {
@@ -1366,4 +1366,21 @@ a.button:after,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\00003511}}
 .page-home .product-items-owl {
   display: block !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\00003516}}
+.body-overlay {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/responsive\.smalltouch\.portrait\.scss}line{font-family:\00003519}}
+.body-overlay.show {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  z-index: 5000;
+  background: 0 0;
+  background: rgba(0, 0, 0, 0.4);
 }
