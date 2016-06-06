@@ -73,7 +73,7 @@
       iProd++;
 
       // Check for product page for activating button
-      $btnActive.addClass('active');
+      //$btnActive.addClass('active');
     });
 
     var $assortimentLinks = $('.assortiment-menu .assortiment-link');
@@ -251,9 +251,14 @@
         }
       }
 
-      var productOrder = $('body').hasClass('page-product');
+      var productOrder = $('body').hasClass('page-product-assortiment');
+      var productOrderSystemen = $('body').hasClass('page-product');
+      var productOrderCarousel = $('.page-product .header-details').hasClass('carrousel');
       var productOrderMini = $('.page-product .header-details').hasClass('mini');
-      if (total > 3 && !productOrder) {
+      var productOrderSelectieboxen = $('.page-product .header-details').hasClass('selectieboxen');
+      var productOrderTabletop = $('.page-product .header-details').hasClass('tabletop');
+      var productOrderStandalones = $('.page-product .header-details').hasClass('standalones');
+      if (total > 3 && productOrder) {
 
         $table.append($tableLastRow);
 
@@ -262,16 +267,21 @@
         selectedItems.push(freeItem);
       }
 
-      if (productOrderMini) {
-        if (total < 8) {
-          $table.append($tableLastRow.eq(0));
-        }
-        else {
-          $table.append($tableLastRow.eq(1))
+      if (productOrderSystemen) {
+
+        if ((total > 5 && productOrderCarousel) ||
+          (total > 8 && productOrderMini) ||
+          (total > 0 && productOrderSelectieboxen) ||
+          (total > 3 && productOrderTabletop) ||
+          (total > 3 && productOrderStandalones)) {
+
+          $table.append($tableLastRow);
+
+          var freeItem = $('.results .free td').text();
+
+          selectedItems.push(freeItem);
         }
 
-        var freeItem = $('.results .free td').text();
-        selectedItems.push(freeItem);
       }
 
       localStorage.setItem('items', JSON.stringify(selectedItems));

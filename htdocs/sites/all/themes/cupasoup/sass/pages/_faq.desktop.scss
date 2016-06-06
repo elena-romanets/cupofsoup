@@ -1,5 +1,23 @@
 body.faq {
 
+    .block-content {
+        position: relative;
+
+        .faq-text {
+            max-width: 600px;
+        }
+
+        .block-image {
+            position: absolute;
+            background: url("../images/header-support.png") no-repeat;
+            width: 339px;
+            height: 260px;
+            right: 0;
+            top: -100px;
+        }
+    }
+
+
     .faq-question {
         cursor: pointer;
 
