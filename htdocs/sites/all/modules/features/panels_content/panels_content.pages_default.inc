@@ -554,6 +554,42 @@ Handig en compact draaisysteem</p>
     $display->content['new-f8ac8089-3d17-47d2-bfab-e637e4e9e950'] = $pane;
     $display->panels['center'][6] = 'new-f8ac8089-3d17-47d2-bfab-e637e4e9e950';
     $pane = new stdClass();
+    $pane->pid = 'new-7c29b437-8dfa-4824-8fe8-e642f5cf9548';
+    $pane->panel = 'center';
+    $pane->type = 'entity_field';
+    $pane->subtype = 'node:field_product_image';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'label' => 'hidden',
+      'formatter' => 'image',
+      'delta_limit' => 0,
+      'delta_offset' => '0',
+      'delta_reversed' => FALSE,
+      'formatter_settings' => array(
+        'image_style' => 'systemen_overview',
+        'image_link' => '',
+      ),
+      'context' => 'node',
+      'override_title' => 1,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'systemen-product-image',
+    );
+    $pane->extras = array();
+    $pane->position = 7;
+    $pane->locks = array();
+    $pane->uuid = '7c29b437-8dfa-4824-8fe8-e642f5cf9548';
+    $display->content['new-7c29b437-8dfa-4824-8fe8-e642f5cf9548'] = $pane;
+    $display->panels['center'][7] = 'new-7c29b437-8dfa-4824-8fe8-e642f5cf9548';
+    $pane = new stdClass();
     $pane->pid = 'new-6cfb0a30-8a6e-4956-8ee0-69967e380efa';
     $pane->panel = 'center';
     $pane->type = 'custom';
@@ -602,11 +638,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'header-details selectieboxen',
     );
     $pane->extras = array();
-    $pane->position = 7;
+    $pane->position = 8;
     $pane->locks = array();
     $pane->uuid = '6cfb0a30-8a6e-4956-8ee0-69967e380efa';
     $display->content['new-6cfb0a30-8a6e-4956-8ee0-69967e380efa'] = $pane;
-    $display->panels['center'][7] = 'new-6cfb0a30-8a6e-4956-8ee0-69967e380efa';
+    $display->panels['center'][8] = 'new-6cfb0a30-8a6e-4956-8ee0-69967e380efa';
     $pane = new stdClass();
     $pane->pid = 'new-a3e870f3-c48d-41c5-8426-0dc6a152d87c';
     $pane->panel = 'center';
@@ -656,11 +692,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'header-details mini',
     );
     $pane->extras = array();
-    $pane->position = 8;
+    $pane->position = 9;
     $pane->locks = array();
     $pane->uuid = 'a3e870f3-c48d-41c5-8426-0dc6a152d87c';
     $display->content['new-a3e870f3-c48d-41c5-8426-0dc6a152d87c'] = $pane;
-    $display->panels['center'][8] = 'new-a3e870f3-c48d-41c5-8426-0dc6a152d87c';
+    $display->panels['center'][9] = 'new-a3e870f3-c48d-41c5-8426-0dc6a152d87c';
     $pane = new stdClass();
     $pane->pid = 'new-fca534d4-c142-455f-b376-bbd6661c7c12';
     $pane->panel = 'center';
@@ -710,11 +746,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'header-details tabletop',
     );
     $pane->extras = array();
-    $pane->position = 9;
+    $pane->position = 10;
     $pane->locks = array();
     $pane->uuid = 'fca534d4-c142-455f-b376-bbd6661c7c12';
     $display->content['new-fca534d4-c142-455f-b376-bbd6661c7c12'] = $pane;
-    $display->panels['center'][9] = 'new-fca534d4-c142-455f-b376-bbd6661c7c12';
+    $display->panels['center'][10] = 'new-fca534d4-c142-455f-b376-bbd6661c7c12';
     $pane = new stdClass();
     $pane->pid = 'new-f49f37bd-6b43-4795-9ada-733aa17cb03d';
     $pane->panel = 'center';
@@ -764,11 +800,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'header-details standalones',
     );
     $pane->extras = array();
-    $pane->position = 10;
+    $pane->position = 11;
     $pane->locks = array();
     $pane->uuid = 'f49f37bd-6b43-4795-9ada-733aa17cb03d';
     $display->content['new-f49f37bd-6b43-4795-9ada-733aa17cb03d'] = $pane;
-    $display->panels['center'][10] = 'new-f49f37bd-6b43-4795-9ada-733aa17cb03d';
+    $display->panels['center'][11] = 'new-f49f37bd-6b43-4795-9ada-733aa17cb03d';
     $pane = new stdClass();
     $pane->pid = 'new-da7cc257-623c-4499-a26e-f514450abeba';
     $pane->panel = 'center';
@@ -811,11 +847,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'header-details carrousel',
     );
     $pane->extras = array();
-    $pane->position = 11;
+    $pane->position = 12;
     $pane->locks = array();
     $pane->uuid = 'da7cc257-623c-4499-a26e-f514450abeba';
     $display->content['new-da7cc257-623c-4499-a26e-f514450abeba'] = $pane;
-    $display->panels['center'][11] = 'new-da7cc257-623c-4499-a26e-f514450abeba';
+    $display->panels['center'][12] = 'new-da7cc257-623c-4499-a26e-f514450abeba';
     $pane = new stdClass();
     $pane->pid = 'new-180cc6a8-71c2-4a49-8311-288445e2e209';
     $pane->panel = 'center';
@@ -858,11 +894,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'header-details selectieboxen',
     );
     $pane->extras = array();
-    $pane->position = 12;
+    $pane->position = 13;
     $pane->locks = array();
     $pane->uuid = '180cc6a8-71c2-4a49-8311-288445e2e209';
     $display->content['new-180cc6a8-71c2-4a49-8311-288445e2e209'] = $pane;
-    $display->panels['center'][12] = 'new-180cc6a8-71c2-4a49-8311-288445e2e209';
+    $display->panels['center'][13] = 'new-180cc6a8-71c2-4a49-8311-288445e2e209';
     $pane = new stdClass();
     $pane->pid = 'new-76935392-8640-4792-b09c-af9f37127718';
     $pane->panel = 'center';
@@ -915,11 +951,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'header-details mini',
     );
     $pane->extras = array();
-    $pane->position = 13;
+    $pane->position = 14;
     $pane->locks = array();
     $pane->uuid = '76935392-8640-4792-b09c-af9f37127718';
     $display->content['new-76935392-8640-4792-b09c-af9f37127718'] = $pane;
-    $display->panels['center'][13] = 'new-76935392-8640-4792-b09c-af9f37127718';
+    $display->panels['center'][14] = 'new-76935392-8640-4792-b09c-af9f37127718';
     $pane = new stdClass();
     $pane->pid = 'new-209e5be0-8948-4eec-87fd-c219d593dd11';
     $pane->panel = 'center';
@@ -962,11 +998,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'header-details tabletop',
     );
     $pane->extras = array();
-    $pane->position = 14;
+    $pane->position = 15;
     $pane->locks = array();
     $pane->uuid = '209e5be0-8948-4eec-87fd-c219d593dd11';
     $display->content['new-209e5be0-8948-4eec-87fd-c219d593dd11'] = $pane;
-    $display->panels['center'][14] = 'new-209e5be0-8948-4eec-87fd-c219d593dd11';
+    $display->panels['center'][15] = 'new-209e5be0-8948-4eec-87fd-c219d593dd11';
     $pane = new stdClass();
     $pane->pid = 'new-ef584991-bcfe-4183-b715-528e25403721';
     $pane->panel = 'center';
@@ -1009,11 +1045,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'header-details standalones',
     );
     $pane->extras = array();
-    $pane->position = 15;
+    $pane->position = 16;
     $pane->locks = array();
     $pane->uuid = 'ef584991-bcfe-4183-b715-528e25403721';
     $display->content['new-ef584991-bcfe-4183-b715-528e25403721'] = $pane;
-    $display->panels['center'][15] = 'new-ef584991-bcfe-4183-b715-528e25403721';
+    $display->panels['center'][16] = 'new-ef584991-bcfe-4183-b715-528e25403721';
     $pane = new stdClass();
     $pane->pid = 'new-19236aa9-dece-4f81-8731-84c793d333d0';
     $pane->panel = 'center';
@@ -1058,11 +1094,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'faq-header',
     );
     $pane->extras = array();
-    $pane->position = 16;
+    $pane->position = 17;
     $pane->locks = array();
     $pane->uuid = '19236aa9-dece-4f81-8731-84c793d333d0';
     $display->content['new-19236aa9-dece-4f81-8731-84c793d333d0'] = $pane;
-    $display->panels['center'][16] = 'new-19236aa9-dece-4f81-8731-84c793d333d0';
+    $display->panels['center'][17] = 'new-19236aa9-dece-4f81-8731-84c793d333d0';
     $pane = new stdClass();
     $pane->pid = 'new-87a77e39-8f77-469e-bcbc-ae642612de0a';
     $pane->panel = 'center';
@@ -1093,11 +1129,11 @@ Handig en compact draaisysteem</p>
       'css_class' => 'assortiment-menu faq-menu',
     );
     $pane->extras = array();
-    $pane->position = 17;
+    $pane->position = 18;
     $pane->locks = array();
     $pane->uuid = '87a77e39-8f77-469e-bcbc-ae642612de0a';
     $display->content['new-87a77e39-8f77-469e-bcbc-ae642612de0a'] = $pane;
-    $display->panels['center'][17] = 'new-87a77e39-8f77-469e-bcbc-ae642612de0a';
+    $display->panels['center'][18] = 'new-87a77e39-8f77-469e-bcbc-ae642612de0a';
     $pane = new stdClass();
     $pane->pid = 'new-ac7de1ee-6fb2-4060-9ac3-6cec00c47313';
     $pane->panel = 'center_';

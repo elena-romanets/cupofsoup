@@ -13,6 +13,8 @@
       loop:true
     });
 
+    // Image view on systemen page
+    $('.systemen-product-image img').prependTo('.product-img.systemen');
 
     var $formPlaceholder = $('.form-placeholder');
     var $table;

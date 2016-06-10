@@ -340,28 +340,13 @@ a.button,
         bottom: 0;
         float: right;
 
-        &.carrousel {
-          background-image: url("../images/header-carrousel.png");
-          top: 50px;
-        }
-
-        &.selectieboxen {
-          background-image: url("../images/selectboxen-product.png");
-          height: 326px;
-        }
-
-        &.mini {
-          background-image: url("../images/mini-product.png");
-          top: 50px;
-        }
-
-        &.tabletop {
-          background-image: url("../images/tabletop-product.png");
-          top: 50px;
-        }
-
+        &.carrousel,
+        &.selectieboxen,
+        &.mini,
+        &.tabletop,
         &.standalones {
-          background-image: url("../images/standalones-product.png");
+          background: none;
+          text-align: center;
           top: 50px;
         }
       }

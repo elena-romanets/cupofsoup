@@ -268,33 +268,13 @@ body .panels-flexible-region.region-header {
                 bottom: 0;
                 float: right;
 
-                &.carrousel {
-                    background-image: url("../images/header-carrousel.png");
-                    height: 205px;
-                    top: 100px;
-                }
-
-                &.selectieboxen {
-                    background-image: url("../images/selectboxen-product.png");
-                    height: 326px;
-                    top: 50px;
-                }
-
-                &.mini {
-                    background-image: url("../images/mini-product.png");
-                    height: 212px;
-                    top: 100px;
-                }
-
-                &.tabletop {
-                    background-image: url("../images/tabletop-product.png");
-                    height: 214px;
-                    top: 100px;
-                }
-
+                &.carrousel,
+                &.selectieboxen,
+                &.mini,
+                &.tabletop,
                 &.standalones {
-                    background-image: url("../images/standalones-product.png");
-                    height: 195px;
+                    background: none;
+                    text-align: center;
                     top: 100px;
                 }
             }
@@ -646,7 +626,7 @@ body .panels-flexible-region.region-header {
 
     .desc-section-more .product-items .item {
         max-width: 250px;
-        min-width: 250px;
+        min-width: 236px;
         margin-right: 10px;
 
         &:last-child {

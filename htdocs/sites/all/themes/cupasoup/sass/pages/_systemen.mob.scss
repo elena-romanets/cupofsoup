@@ -133,6 +133,10 @@
     color: $white;
     margin: 20px 12px;
 
+    .item:first-child {
+        padding-top: 50px;
+    }
+
     .systemen {
         display: block;
         min-height: 600px;
