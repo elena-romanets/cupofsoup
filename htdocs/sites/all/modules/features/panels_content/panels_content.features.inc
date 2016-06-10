@@ -49,7 +49,7 @@ function panels_content_image_default_styles() {
         'name' => 'image_resize',
         'data' => array(
           'width' => 200,
-          'height' => 210,
+          'height' => 323,
         ),
         'weight' => 1,
       ),

@@ -275,7 +275,9 @@ body .panels-flexible-region.region-header {
                 &.standalones {
                     background: none;
                     text-align: center;
-                    top: 100px;
+                    position: relative;
+                    height: auto;
+                    margin-bottom: 20px;
                 }
             }
         }

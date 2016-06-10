@@ -567,7 +567,7 @@ Handig en compact draaisysteem</p>
       'delta_offset' => '0',
       'delta_reversed' => FALSE,
       'formatter_settings' => array(
-        'image_style' => 'systemen_overview',
+        'image_style' => 'systemen_order_details_image',
         'image_link' => '',
       ),
       'context' => 'node',

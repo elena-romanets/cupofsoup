@@ -106,7 +106,7 @@ a.button,
 
     ul.menu {
       width: 100%;
-      height: 420px;
+      height: auto;
       background: green;
       padding-top: 100px;
       display: none;
@@ -216,7 +216,7 @@ a.button,
 }
 
 .region-header {
-  height: 900px;
+  height: 830px;
   background: url('../images/main-header-bg.jpg') no-repeat;
   background-size: cover;
   position: relative;
@@ -275,7 +275,8 @@ a.button,
     position: relative;
     display: block;
     width: auto;
-    height: 590px;
+    height: auto;
+    //height: 590px;
     background: $yellow;
     border: 15px solid $white;
     margin: 0 12px;
@@ -347,7 +348,13 @@ a.button,
         &.standalones {
           background: none;
           text-align: center;
-          top: 50px;
+          position: relative;
+          height: auto;
+          margin: 10px 0;
+
+          img {
+            width: 150px;
+          }
         }
       }
     }
