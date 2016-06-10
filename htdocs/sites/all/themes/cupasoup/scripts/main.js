@@ -224,6 +224,7 @@
 
       var $totalPrice = $('.assortiment-total-price .total-wrapper span');
       var full = false;
+      var productTrue = false;
       var total = 0;
       var selectedItems = [];
       var type = $('input[name="product-option"]:checked').val() || '';
@@ -278,6 +279,7 @@
           $table.append($tableLastRow);
 
           var freeItem = $('.results .free td').text();
+          productTrue = true;
 
           selectedItems.push(freeItem);
         }
@@ -286,9 +288,8 @@
 
       localStorage.setItem('items', JSON.stringify(selectedItems));
 
-      var inputRadio = $('.field-name-field-title .field-item input').hasClass('radio-input');
-
-      if (full || inputRadio) {
+      if ((full && productOrder) || productTrue) {
+        console.log('here');
         $btnActive.addClass('active');
         $res.show();
         $emptyRes.hide();

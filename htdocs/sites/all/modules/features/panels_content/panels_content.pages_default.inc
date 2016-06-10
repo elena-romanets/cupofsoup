@@ -1037,9 +1037,12 @@ Handig en compact draaisysteem</p>
     $pane->configuration = array(
       'admin_title' => 'KLANTENSERVICE Header',
       'title' => 'KLANTENSERVICE',
-      'body' => '<p>De Verkoop Binnendienst is telefonisch bereikbaar op werkdagen van 8.30 tot 17.00 uur via het nummer 010 - 439 47 86.</p>
+      'body' => '<div class="faq-text">
+<p>De Verkoop Binnendienst is telefonisch bereikbaar op werkdagen van 8.30 tot 17.00 uur via het nummer 010 - 439 47 86.</p>
 <p>Daarnaast zijn wij bereikbaar via e-mail en ons contactformulier. We streven er altijd naar je direct van dienst te zijn.</p>
 <p>In onderstaande veel gestelde vragen vindt u wellicht direct het antwoord op uw vraag.</p>
+</div>
+<div class="block-image"></div>
 <hr>
 <h3>VEEL GESTELDE VRAGEN<h3>
 <p>De meest gestelde vragen vind je hieronder. Staat het antwoord op jouw vraag er niet tussen neem dan contact met ons op.</p>',
@@ -2265,20 +2268,32 @@ function panels_content_default_page_manager_pages() {
     $pane->type = 'custom';
     $pane->subtype = 'custom';
     $pane->shown = TRUE;
-    $pane->access = array();
+    $pane->access = array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'product/1',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+      ),
+    );
     $pane->configuration = array(
       'admin_title' => 'Uw bestelling',
       'title' => 'Uw bestelling',
       'body' => '<div class="results">
 <table>
 	<tbody>
-                <tr class="free mini less-9">
-			<td>MiNi Automaat</td>
+                <tr class="free product carrousel">
+			<td> Carrousel </td>
 			<td>&nbsp;</td>
-			<td>€199,-</td>
+			<td>€57,99-</td>
 		</tr>
-                <tr class="free mini more-9">
-			<td>MiNi Startpakket</td>
+                <tr class="free product carrousel">
+			<td>Cup-a-Soup Startpakket</td>
 			<td>&nbsp;</td>
 			<td>Gratis</td>
 		</tr>
@@ -2313,6 +2328,256 @@ De bovenstaande bedragen zijn adviesprijzen, deze bedragen kunnen afwijken van h
     $pane->uuid = 'afe5c212-75e5-4728-ab3e-9f57fdfbd694';
     $display->content['new-afe5c212-75e5-4728-ab3e-9f57fdfbd694'] = $pane;
     $display->panels['center'][6] = 'new-afe5c212-75e5-4728-ab3e-9f57fdfbd694';
+    $pane = new stdClass();
+    $pane->pid = 'new-e800c236-fe75-4156-bc0e-dd1ebf49a9e4';
+    $pane->panel = 'center';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'product/3',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+      ),
+    );
+    $pane->configuration = array(
+      'admin_title' => 'Uw bestelling',
+      'title' => 'Uw bestelling',
+      'body' => '<div class="results">
+<table>
+	<tbody>
+                
+	</tbody>
+</table>
+</div>
+<div class="empty-result">U heeft nog niets geselecteerd</div>
+<div class="total-wrapper title sm-title">TOTAAL €<span></span></div>
+
+<div class="bottom-wrapper">
+<div class="details-text">
+De bovenstaande bedragen zijn adviesprijzen, deze bedragen kunnen afwijken van het bedrag dat uw leverancier in rekening brengt. De werkelijke bedragen kunt u opvragen bij uw leverancier.
+</div>
+<div class="button btn-more">
+<a href="/service">BESTELLEN</a>
+</div>
+</div>',
+      'format' => 'popup_tags',
+      'substitute' => 0,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'assortiment-total-price',
+    );
+    $pane->extras = array();
+    $pane->position = 7;
+    $pane->locks = array();
+    $pane->uuid = 'e800c236-fe75-4156-bc0e-dd1ebf49a9e4';
+    $display->content['new-e800c236-fe75-4156-bc0e-dd1ebf49a9e4'] = $pane;
+    $display->panels['center'][7] = 'new-e800c236-fe75-4156-bc0e-dd1ebf49a9e4';
+    $pane = new stdClass();
+    $pane->pid = 'new-23793873-c5b2-4e56-b71e-7db156e969c4';
+    $pane->panel = 'center';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'product/2',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+      ),
+    );
+    $pane->configuration = array(
+      'admin_title' => 'Uw bestelling',
+      'title' => 'Uw bestelling',
+      'body' => '<div class="results">
+<table>
+	<tbody>
+                <tr class="free product mini">
+			<td>MiNi Automaat</td>
+			<td>&nbsp;</td>
+			<td>Gratis</td>
+		</tr>
+                <tr class="free product mini">
+			<td>MiNi Startpakket</td>
+			<td>&nbsp;</td>
+			<td>Gratis</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<div class="empty-result">U heeft nog niets geselecteerd</div>
+<div class="total-wrapper title sm-title">TOTAAL €<span></span></div>
+
+<div class="bottom-wrapper">
+<div class="details-text">
+De bovenstaande bedragen zijn adviesprijzen, deze bedragen kunnen afwijken van het bedrag dat uw leverancier in rekening brengt. De werkelijke bedragen kunt u opvragen bij uw leverancier.
+</div>
+<div class="button btn-more">
+<a href="/service">BESTELLEN</a>
+</div>
+</div>',
+      'format' => 'popup_tags',
+      'substitute' => 1,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'assortiment-total-price',
+    );
+    $pane->extras = array();
+    $pane->position = 8;
+    $pane->locks = array();
+    $pane->uuid = '23793873-c5b2-4e56-b71e-7db156e969c4';
+    $display->content['new-23793873-c5b2-4e56-b71e-7db156e969c4'] = $pane;
+    $display->panels['center'][8] = 'new-23793873-c5b2-4e56-b71e-7db156e969c4';
+    $pane = new stdClass();
+    $pane->pid = 'new-841a7ed4-9b36-4dfe-821e-17a086fad637';
+    $pane->panel = 'center';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'product/4',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+      ),
+    );
+    $pane->configuration = array(
+      'admin_title' => 'Uw bestelling',
+      'title' => 'Uw bestelling',
+      'body' => '<div class="results">
+<table>
+	<tbody>
+                <tr class="free product tabletop">
+			<td>Tabletop Automaat</td>
+			<td>&nbsp;</td>
+			<td>Gratis</td>
+		</tr>
+                <tr class="free product tabletop">
+			<td>Tabletop Startpakket</td>
+			<td>&nbsp;</td>
+			<td>Gratis</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<div class="empty-result">U heeft nog niets geselecteerd</div>
+<div class="total-wrapper title sm-title">TOTAAL €<span></span></div>
+
+<div class="bottom-wrapper">
+<div class="details-text">
+De bovenstaande bedragen zijn adviesprijzen, deze bedragen kunnen afwijken van het bedrag dat uw leverancier in rekening brengt. De werkelijke bedragen kunt u opvragen bij uw leverancier.
+</div>
+<div class="button btn-more">
+<a href="/service">BESTELLEN</a>
+</div>
+</div>',
+      'format' => 'popup_tags',
+      'substitute' => 0,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'assortiment-total-price',
+    );
+    $pane->extras = array();
+    $pane->position = 9;
+    $pane->locks = array();
+    $pane->uuid = '841a7ed4-9b36-4dfe-821e-17a086fad637';
+    $display->content['new-841a7ed4-9b36-4dfe-821e-17a086fad637'] = $pane;
+    $display->panels['center'][9] = 'new-841a7ed4-9b36-4dfe-821e-17a086fad637';
+    $pane = new stdClass();
+    $pane->pid = 'new-a1778bf5-3184-4b45-acc2-4c3c0acd1090';
+    $pane->panel = 'center';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'product/5',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+      ),
+    );
+    $pane->configuration = array(
+      'admin_title' => 'Uw bestelling',
+      'title' => 'Uw bestelling',
+      'body' => '<div class="results">
+<table>
+	<tbody>
+                <tr class="free product standalones">
+			<td>Stand alone</td>
+			<td>&nbsp;</td>
+			<td>Gratis</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<div class="empty-result">U heeft nog niets geselecteerd</div>
+<div class="total-wrapper title sm-title">TOTAAL €<span></span></div>
+
+<div class="bottom-wrapper">
+<div class="details-text">
+De bovenstaande bedragen zijn adviesprijzen, deze bedragen kunnen afwijken van het bedrag dat uw leverancier in rekening brengt. De werkelijke bedragen kunt u opvragen bij uw leverancier.
+</div>
+<div class="button btn-more">
+<a href="/service">BESTELLEN</a>
+</div>
+</div>',
+      'format' => 'popup_tags',
+      'substitute' => 0,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'assortiment-total-price',
+    );
+    $pane->extras = array();
+    $pane->position = 10;
+    $pane->locks = array();
+    $pane->uuid = 'a1778bf5-3184-4b45-acc2-4c3c0acd1090';
+    $display->content['new-a1778bf5-3184-4b45-acc2-4c3c0acd1090'] = $pane;
+    $display->panels['center'][10] = 'new-a1778bf5-3184-4b45-acc2-4c3c0acd1090';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
