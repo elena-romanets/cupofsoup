@@ -1236,7 +1236,8 @@ div.messages ul {
  * Admin menu overrides
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.styles\.scss}line{font-family:\000031853}}
-#admin-menu {
+#admin-menu,
+.panels-flexible-15 .panels-flexible-row {
   margin: 0;
   padding: 0;
 }
@@ -1244,7 +1245,7 @@ div.messages ul {
 /*
  * Devel Module
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.styles\.scss}line{font-family:\000031862}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.styles\.scss}line{font-family:\000031863}}
 .dev-query {
   background: #eee;
   padding: 30px;
@@ -1253,14 +1254,19 @@ div.messages ul {
 /*
  * Styleguide module tweaks
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.styles\.scss}line{font-family:\000031871}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.styles\.scss}line{font-family:\000031872}}
 #styleguide-header {
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.styles\.scss}line{font-family:\000031874}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.styles\.scss}line{font-family:\000031875}}
 #styleguide-header .item-list {
   font-family: inherit;
   margin: 0 20px 20px 0;
   min-height: 260px;
   width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.styles\.scss}line{font-family:\000031883}}
+.black-text {
+  color: #2a2927;
 }

@@ -1850,7 +1850,8 @@ tr.error {
 /*
  * Admin menu overrides
  */
-#admin-menu {
+#admin-menu,
+.panels-flexible-15 .panels-flexible-row {
   margin: 0;
   padding: 0;
 }
@@ -1877,4 +1878,8 @@ tr.error {
     min-height: 260px;
     width: auto;
   }
+}
+
+.black-text {
+  color: $black_light;
 }
