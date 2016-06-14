@@ -353,7 +353,9 @@ function panels_content_default_page_manager_handlers() {
       <a class="button" href="/product/1">BESTELLEN</a>
     </div>
 
-    <div class="product-img"></div>',
+    <div class="product-img">
+    <div class="product-image-home"></div>
+    </div>',
       'format' => 'full_html',
       'substitute' => 0,
     );
@@ -481,7 +483,9 @@ function panels_content_default_page_manager_handlers() {
           Profiteer nu tijdelijk van één van de gratis Cup-a-Soup Startpakketten.
       </p>
 </div>
-    <div class="product-img systemen"></div>',
+    <div class="product-img systemen">
+    <div class="product-image-systemen"></div>
+    </div>',
       'format' => 'full_html',
       'substitute' => 0,
     );

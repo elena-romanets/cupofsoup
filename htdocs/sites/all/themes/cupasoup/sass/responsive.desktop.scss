@@ -8,7 +8,8 @@
 @import "pages/assortiment.desktop";
 @import "pages/systemen.desktop";
 
-.mob-menu {
+.mob-menu,
+#cookieDiv {
     display: none;
 }
 
@@ -241,14 +242,21 @@ body .panels-flexible-region.region-header {
         .product-img {
             display: inline-block;
             position: relative;
-            background: url("../images/product.png") no-repeat;
             width: 50%;
-            height: 329px;
             right: 0;
             bottom: 0;
             float: right;
             background-size: contain;
             background-position: 50% 0;
+
+            .product-image-home {
+                background: url("../images/product.png") no-repeat;
+                background-size: contain;
+                width: 450px;
+                height: 321px;
+                margin: 0 auto;
+                position: relative;
+            }
 
             &.assortiment {
                 background: url("../images/assoriment-prod.png") no-repeat;
@@ -264,9 +272,17 @@ body .panels-flexible-region.region-header {
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: 50% 0;
-                height: 269px;
                 bottom: 0;
                 float: right;
+
+                .product-image-systemen {
+                    background: url("../images/systemen.png");
+                    width: 178px;
+                    height: 209px;
+                    margin: 0 auto;
+                    top: 50px;
+                    position: relative;
+                }
 
                 &.carrousel,
                 &.selectieboxen,

@@ -156,7 +156,7 @@
 
 
     var val = localStorage.getItem('items');
-    val = JSON.parse(val).join("\n");
+    val = val ? JSON.parse(val).join("\n") : '';
     $('.webform-component--items input[name="submitted[items]"]').val(val);
 
 
@@ -291,7 +291,6 @@
       localStorage.setItem('items', JSON.stringify(selectedItems));
 
       if ((full && productOrder) || productTrue) {
-        console.log('here');
         $btnActive.addClass('active');
         $res.show();
         $emptyRes.hide();
