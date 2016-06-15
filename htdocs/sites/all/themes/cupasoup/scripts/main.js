@@ -39,6 +39,13 @@
             .val(val - 1)
             .change();
         }
+
+        // Set default value if it exists
+        if ($('.field-name-field-title .field-item input').hasClass('radio-input')) {
+          var radioValue = $('input[name="product-option"]:checked').parents(".field-collection-item-field-options").find(".field-name-field-value .field-item").text();
+          var radioValueRes = radioValue.replace('€ ', '').replace(',', '.');
+          $('.assortiment-total-price .total-wrapper span').text(radioValueRes);
+        }
       });
 
       $el.delegate('.plus', 'click', function () {
@@ -77,6 +84,10 @@
       // Check for product page for activating button
       //$btnActive.addClass('active');
     });
+    var radioValue = $('input[name="product-option"]:checked').parents(".field-collection-item-field-options").find(".field-name-field-value .field-item").text();
+    var radioValueRes = radioValue.replace('€ ', '').replace(',', '.');
+
+    $('.assortiment-total-price .total-wrapper span').text(radioValueRes);
 
     var $assortimentLinks = $('.assortiment-menu .assortiment-link');
     var $assortimentPanes = $('.assortiment-row');
@@ -163,10 +174,13 @@
     function updateTotal() {
       var $el = $(this);
       var id = $el.parent().data('id');
+      var radioValue = $('input[name="product-option"]:checked').parents(".field-collection-item-field-options").find(".field-name-field-value .field-item").text();
+      var radioValueRes = radioValue.replace('€ ', '').replace(',', '.');
+      var radioValueResult = (radioValueRes * 100) / 100;
 
       $('[data-id="' + id + '"] input').val($el.val());
 
-      var totalPrice = 0;
+      var totalPrice = $('.field-name-field-title .field-item input').hasClass('radio-input') ? radioValueResult : 0;
       var prices = {};
       var items = {};
 
@@ -234,11 +248,12 @@
       for (var i in prices) {
         if (prices.hasOwnProperty(i) && prices[i].total) {
           full = true;
+          var totalTDPrice = (Math.round(prices[i].total * 100) / 100).toString();
           var $tr = $('<tr>')
             .append(
               $('<td>').text(i),
               $('<td>').text(items[i].total + 'x'),
-              $('<td>').text(Math.round(prices[i].total * 100) / 100)
+              $('<td>').text('€' + totalTDPrice.replace('.', ','))
             );
 
           $table.append($tr);
@@ -286,6 +301,13 @@
           selectedItems.push(freeItem);
         }
 
+        if (productOrderCarousel) {
+          var radioValue = $('input[name="product-option"]:checked').parents(".field-collection-item-field-options").find(".field-name-field-value .field-item").text();
+          var radioValueRes = radioValue.replace('€ ', '€');
+
+          $('.carrousel-radio-btn-res').text(radioValueRes);
+        }
+
       }
 
       localStorage.setItem('items', JSON.stringify(selectedItems));
@@ -301,7 +323,8 @@
         $emptyRes.show();
       }
 
-      $totalPrice.text(Math.round(totalPrice * 100) / 100);
+      var totalResultPrice = (Math.round(totalPrice * 100) / 100).toString().replace('.', ',');
+      $totalPrice.text(totalResultPrice);
     }
 
   });
