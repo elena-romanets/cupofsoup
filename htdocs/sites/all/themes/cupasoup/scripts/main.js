@@ -248,7 +248,7 @@
       for (var i in prices) {
         if (prices.hasOwnProperty(i) && prices[i].total) {
           full = true;
-          var totalTDPrice = (Math.round(prices[i].total * 100) / 100).toString();
+          var totalTDPrice = (Math.round(prices[i].total * 100) / 100).toFixed(2).toString();
           var $tr = $('<tr>')
             .append(
               $('<td>').text(i),
@@ -337,7 +337,7 @@
         $emptyRes.show();
       }
 
-      var totalResultPrice = (Math.round(totalPrice * 100) / 100).toString().replace('.', ',');
+      var totalResultPrice = (Math.round(totalPrice * 100) / 100).toFixed(2).toString().replace('.', ',');
       $totalPrice.text(totalResultPrice);
     }
 

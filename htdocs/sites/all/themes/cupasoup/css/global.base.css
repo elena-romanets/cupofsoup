@@ -783,3 +783,8 @@ input[type="checkbox"]:checked + label {
   position: fixed;
   bottom: 0;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Elena\/Documents\/CupOfSoup\/htdocs\/sites\/all\/themes\/cupasoup\/sass\/global\.base\.scss}line{font-family:\00003768}}
+.systemen-product-image {
+  display: none;
+}
