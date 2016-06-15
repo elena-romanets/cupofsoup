@@ -198,6 +198,7 @@ body .panels-flexible-region.region-header {
         position: relative;
         display: block;
         width: auto;
+        height: 410px;
         //height: auto;
         background: $yellow;
         border: 20px solid $white;
@@ -220,7 +221,7 @@ body .panels-flexible-region.region-header {
             .details-txt,
             p {
                 max-width: 500px;
-                margin: 35px auto 20px;
+                margin: 20px auto 20px;
                 padding-left: 18px;
             }
         }
@@ -817,5 +818,12 @@ body .panels-flexible-region.region-header {
         .details-text {
             padding-left: 50px;
         }
+    }
+}
+
+
+@media (max-width: 1284px) and (min-width: 1279px) {
+    body .desc-section-more .product-items .item {
+        width: 19.2%;
     }
 }
