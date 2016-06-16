@@ -309,7 +309,6 @@
           $('.carrousel-radio-btn-res').text(radioValueRes);
 
           var allRadio = $('input[name="product-option"]').eq(0).is(':checked');
-          console.log(radioValue);
 
           if (allRadio) {
             $table.append($tableLastRow.eq(0));

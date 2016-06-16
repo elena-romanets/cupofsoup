@@ -823,7 +823,16 @@ body .panels-flexible-region.region-header {
 
 
 @media (max-width: 1284px) and (min-width: 1279px) {
+    body {
+        .desc-section-more {
+            max-width: 1270px;
+
+            .product-items {
+                width: 1140px;
+            }
+        }
+    }
     body .desc-section-more .product-items .item {
-        width: 19.2%;
+        width: 220px;
     }
 }
